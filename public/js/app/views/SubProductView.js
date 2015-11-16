@@ -14,10 +14,12 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
 
                 this.subproduct.slug = options.subtype;
                 this.subproduct.gallery = {};
+                this.subproduct.parent = options.type;
+                this.subproduct.parent_name = this.subproduct.parent.replace('-', ' ').replace('-', ' ');
 
                 if (this.subproduct.slug === 'gulfsteam-giv-sp') {
                    
-                    this.subproduct.banner = 'bg-op';
+                    this.subproduct.banner = 'g450';
 
                     this.subproduct.name = 'The Gulfstream GIV-SP';
 
@@ -98,7 +100,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                             cols: '3',
                             align: 'center',
                             title: 'Range',
-                            value: '8,056 km (5005 miles)'
+                            value: '4,860 miles'
                         },
                         
                         {
@@ -112,7 +114,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
 
                     this.subproduct.gallery.title = 'Inside the Gulfstream G-IV SP';
 
-                    this.subproduct.gallery.count = 55;
+                    this.subproduct.gallery.count = 69;
                     this.subproduct.gallery.path = '../img/g450/g450-';
                     this.subproduct.gallery.images = [];
 
@@ -128,7 +130,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
             
                 if (this.subproduct.slug === 'gulfsteam-G200') {
                    
-                    this.subproduct.banner = 'bg-op';
+                    this.subproduct.banner = 'g200';
 
                     this.subproduct.name = 'The Gulfstream G200';
 
@@ -212,7 +214,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
 
                 if (this.subproduct.slug === 'sikorsky-s76') {
                    
-                    this.subproduct.banner = 'bg-op';
+                    this.subproduct.banner = 'sikorsky';
 
                     this.subproduct.name = 'The Sikorsky S-76 ';
 
@@ -275,13 +277,13 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                             cols: '3',
                             align: 'center',
                             title: 'Seating Capacity',
-                            value: '5 Passengers'
+                            value: '6 Passengers'
                         }
                     ];
 
                     this.subproduct.gallery.title = 'Inside the Sikorsky S76';
 
-                    this.subproduct.gallery.count = 3;
+                    this.subproduct.gallery.count = 7;
                     this.subproduct.gallery.path = '../img/sikorsky/sikorsky-';
                     this.subproduct.gallery.images = [];
 
@@ -296,7 +298,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
 
                 if (this.subproduct.slug === 'agustswestland-aw139') {
                    
-                    this.subproduct.banner = 'bg-op';
+                    this.subproduct.banner = 'bg-aw139';
 
                     this.subproduct.name = 'The AgustaWestland AW139 ';
 
@@ -363,10 +365,10 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                         }
                     ];
 
-                    this.subproduct.gallery.title = 'Inside the Sikorsky S76';
+                    this.subproduct.gallery.title = 'Inside the AgustaWestland AW139';
 
-                    this.subproduct.gallery.count = 3;
-                    this.subproduct.gallery.path = '../img/sikorsky/sikorsky-';
+                    this.subproduct.gallery.count = 11;
+                    this.subproduct.gallery.path = '../img/aw139/aw139-';
                     this.subproduct.gallery.images = [];
 
                     for (var l = 1; l <= this.subproduct.gallery.count; l++) {
@@ -380,7 +382,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
 
                 if (this.subproduct.slug === 'bombardier-challenger-300') {
                    
-                    this.subproduct.banner = 'bg-op';
+                    this.subproduct.banner = 'bom300';
 
                     this.subproduct.name = 'The Bombardier Challenger 300';
 
@@ -462,8 +464,8 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
 
                     this.subproduct.gallery.title = 'Inside the Bombardier Challenger 300';
 
-                    this.subproduct.gallery.count = 0;
-                    this.subproduct.gallery.path = '../img/bombardier/bombardier-';
+                    this.subproduct.gallery.count = 3;
+                    this.subproduct.gallery.path = '../img/bom/bom-';
                     this.subproduct.gallery.images = [];
 
                     for (var o = 1; o <= this.subproduct.gallery.count; o++) {
@@ -477,7 +479,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
 
                 if (this.subproduct.slug === 'dessault-falcon-900dx') {
                    
-                    this.subproduct.banner = 'bg-op';
+                    this.subproduct.banner = 'des900dx';
 
                     this.subproduct.name = 'The Dassault Falcon 900DX';
 
@@ -555,8 +557,8 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
 
                     this.subproduct.gallery.title = 'Inside the Dassault Falcon 900DX';
 
-                    this.subproduct.gallery.count = 0;
-                    this.subproduct.gallery.path = '../img/bombardier/bombardier-';
+                    this.subproduct.gallery.count = 4;
+                    this.subproduct.gallery.path = '../img/des/des-';
                     this.subproduct.gallery.images = [];
 
                     for (var n = 1; n <= this.subproduct.gallery.count; n++) {
@@ -570,7 +572,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
             
                  if (this.subproduct.slug === 'phenom-300') {
                    
-                    this.subproduct.banner = 'bg-op';
+                    this.subproduct.banner = 'phen300';
 
                     this.subproduct.name = 'The Phenom 300';
 
@@ -614,8 +616,8 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
 
                     this.subproduct.gallery.title = 'Inside the Phenom 300';
 
-                    this.subproduct.gallery.count = 0;
-                    this.subproduct.gallery.path = '../img/bombardier/bombardier-';
+                    this.subproduct.gallery.count = 4;
+                    this.subproduct.gallery.path = '../img/phen/phen-';
                     this.subproduct.gallery.images = [];
 
                     for (var m = 1; m <= this.subproduct.gallery.count; m++) {

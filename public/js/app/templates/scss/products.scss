@@ -55,3 +55,18 @@ li.subfeature {
     width: 200px;
 }
 }
+ol.breadcrumb {
+    text-transform: capitalize;
+    padding: 20px 0;
+    padding-left: 35px;
+    margin-bottom: -10px;
+     li {
+    display: inline;
+}
+}
+.row.about-us img {
+    width: 100%;
+}
+.row.about-us .col-md-3 {
+    margin-top: 15px;
+}

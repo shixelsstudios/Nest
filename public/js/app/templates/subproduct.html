@@ -1,6 +1,7 @@
 <div class="landing-view">
 	<div class="row top-banner {{subproduct.banner}}">
 		<h1>{{subproduct.name}}</h1>
+		<h4>{{subproduct.subheading}}</h4>
 		<div class="black-overlay"></div>
 		<div class="arrow-down">
 			<span class="fa-stack fa-lg fa-3x">
@@ -9,7 +10,11 @@
 			</span>
 		</div>
 	</div>	
-
+	<ol class="breadcrumb">
+  <li><a href="#services">Services</a></li>
+  <li><a href="#services/{{subproduct.parent}}">{{subproduct.parent_name}}</a></li>
+  <li class="active">{{subproduct.name}}</li>
+</ol>
 	<div class="row services-holder pad-bottom">
 		<div class="container  line-container">
 			<div class="center-justified">{{{subproduct.des}}}</div>
@@ -47,11 +52,29 @@
 			</div>
 			
 		</div>
+
+<div class="row">
+		<div class="footer-view">
+		<h2>Site Links</h2>
+			<ul class="row nest-footer-menu"> 
+			
+				<div class="col-md-3 col-xs-6">
+					<li class="home-menu active"><a href="#">Home</a></li>
+					<li class="about-menu"><a href="#about-us">About Us</a></li>
+					<li class="how-menu"><a href="#how-it-works">How it Works</a></li>
+					
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<li class="op-menu"><a href="#operations">Operations</a></li>
+					<li class="serv-menu"><a href="#services">Services</a></li>
+					<li class="contact-menu"><a href="#contact-us">Contact Us</a></li>
+				</div>
+				
+				
+			</ul>
+			<a href="#"><img class="nest-logo" src="http://demos.shixels.com/nest_av/img/logo-inv.png"></a>
+		</div>
+	</div>
 	</div>
 
-	<div class="row">
-		<div class="footer-view">
-	
-</div>
-	</div>
 </div>	

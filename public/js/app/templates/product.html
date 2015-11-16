@@ -9,7 +9,10 @@
 			</span>
 		</div>
 	</div>	
-
+	<ol class="breadcrumb">
+  <li><a href="#services">Services</a></li>
+  <li class="active">{{product.h1}}</li>
+</ol>
 	<div class="row services-holder pad-bottom">
 		<div class="container  line-container">
 
@@ -70,7 +73,19 @@
 		</div>
 	</div>
 	{{/if}}
-
+	<div class="container  line-container">
+			<div class="row services-chunks-holder">
+			<div class="gallery">
+				{{#each product.gallery.images}}
+				 <div class="col-xs-6 col-md-3">
+					    <a href="#" class="thumbnail">
+					     	<img src="{{path}}">
+					    </a>
+					  </div>
+				{{/each}}
+			</div>
+			</div>
+			</div>
 	<div class="row">
 		<div class="footer-view">
 		<h2>Site Links</h2>

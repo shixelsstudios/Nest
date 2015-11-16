@@ -76,17 +76,17 @@ $google_color: #dd422d;
   background: $black_t;
 }
 
-@include font-face("Open Sans Light", font-files("../nest_av/fonts/opensans/light.ttf"));
-@include font-face("Open Sans Regular", font-files("../nest_av/fonts/opensans/regular.ttf"));
-@include font-face("Open Sans Semibold", font-files("../nest_av/fonts/opensans/semibold.ttf"));
-@include font-face("Open Sans Bold", font-files("../nest_av/fonts/opensans/bold.ttf"));
-@include font-face("Open Sans Extrabold", font-files("../nest_av/fonts/opensans/extrabold.ttf"));
+@include font-face("Open Sans Light", font-files("../../fonts/opensans/light.ttf"));
+@include font-face("Open Sans Regular", font-files("../../fonts/opensans/regular.ttf"));
+@include font-face("Open Sans Semibold", font-files("../../fonts/opensans/semibold.ttf"));
+@include font-face("Open Sans Bold", font-files("../../fonts/opensans/bold.ttf"));
+@include font-face("Open Sans Extrabold", font-files("../../fonts/opensans/extrabold.ttf"));
 
-$primary_font_light: "Open Sans Light";
-$primary_font_regular: "Open Sans Regular";
-$primary_font_semibold: "Open Sans Semibold";
-$primary_font_bold: "Open Sans Bold";
-$primary_font_xbold: "Open Sans Extrabold";
+$primary_font_light: "Open Sans Light", Helvetica, sans-serif;
+$primary_font_regular: "Open Sans Regular", Helvetica, sans-serif;
+$primary_font_semibold: "Open Sans Semibold", Helvetica, sans-serif;
+$primary_font_bold: "Open Sans Bold", Helvetica, sans-serif;
+$primary_font_xbold: "Open Sans Extrabold", Helvetica, sans-serif;
 
 .light {
   font-family: $primary_font_light !important;

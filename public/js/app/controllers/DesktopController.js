@@ -59,7 +59,7 @@ define([
             Nest.mainAppRegion.show(new HowView());
         },
         subproduct: function(type, subtype) {
-            Nest.mainAppRegion.show(new SubProductView({subtype: subtype}));
+            Nest.mainAppRegion.show(new SubProductView({type: type, subtype: subtype}));
         },
         quote: function() {
             Nest.mainAppRegion.show(new QuoteView());

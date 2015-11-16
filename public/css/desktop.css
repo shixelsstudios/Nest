@@ -65,33 +65,33 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 @font-face {
   font-family: "Open Sans Light";
-  src: url('/public/fonts/../nest_av/fonts/opensans/light.ttf') format('truetype'); }
+  src: url('/public/fonts/../../fonts/opensans/light.ttf') format('truetype'); }
 @font-face {
   font-family: "Open Sans Regular";
-  src: url('/public/fonts/../nest_av/fonts/opensans/regular.ttf') format('truetype'); }
+  src: url('/public/fonts/../../fonts/opensans/regular.ttf') format('truetype'); }
 @font-face {
   font-family: "Open Sans Semibold";
-  src: url('/public/fonts/../nest_av/fonts/opensans/semibold.ttf') format('truetype'); }
+  src: url('/public/fonts/../../fonts/opensans/semibold.ttf') format('truetype'); }
 @font-face {
   font-family: "Open Sans Bold";
-  src: url('/public/fonts/../nest_av/fonts/opensans/bold.ttf') format('truetype'); }
+  src: url('/public/fonts/../../fonts/opensans/bold.ttf') format('truetype'); }
 @font-face {
   font-family: "Open Sans Extrabold";
-  src: url('/public/fonts/../nest_av/fonts/opensans/extrabold.ttf') format('truetype'); }
+  src: url('/public/fonts/../../fonts/opensans/extrabold.ttf') format('truetype'); }
 .light {
-  font-family: "Open Sans Light" !important; }
+  font-family: "Open Sans Light", Helvetica, sans-serif !important; }
 
 .regular {
-  font-family: "Open Sans Regular" !important; }
+  font-family: "Open Sans Regular", Helvetica, sans-serif !important; }
 
 .semibold {
-  font-family: "Open Sans Semibold" !important; }
+  font-family: "Open Sans Semibold", Helvetica, sans-serif !important; }
 
 .bold {
-  font-family: "Open Sans Bold" !important; }
+  font-family: "Open Sans Bold", Helvetica, sans-serif !important; }
 
 .xbold {
-  font-family: "Open Sans Extrabold" !important; }
+  font-family: "Open Sans Extrabold", Helvetica, sans-serif !important; }
 
 .move-everything-down {
   margin-top: 10px;
@@ -130,7 +130,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-left: 10px; }
 
 .make_bold {
-  font-family: "Open Sans Bold"; }
+  font-family: "Open Sans Bold", Helvetica, sans-serif; }
 
 .btn.btn-full {
   width: 100%;
@@ -148,7 +148,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     background: #32255d !important; }
 
 .btn {
-  font-family: "Open Sans Semibold"; }
+  font-family: "Open Sans Semibold", Helvetica, sans-serif; }
 
 .btn-secondary {
   background: #5cc159 !important;
@@ -264,7 +264,7 @@ a.btn.btn-gold {
 
 p {
   font-size: 16px;
-  font-family: "Open Sans Regular" !important; }
+  font-family: "Open Sans Regular", Helvetica, sans-serif !important; }
 
 .small-h1 {
   font-size: 16px !important; }
@@ -2103,7 +2103,7 @@ ul.row.nest-footer-menu a {
   color: #fff;
   padding: 30px 15%;
   font-size: 20px;
-  font-family: "Open Sans Extrabold"; }
+  font-family: "Open Sans Extrabold", Helvetica, sans-serif; }
 
 .modal-view {
   width: 100%;
@@ -2117,7 +2117,7 @@ ul.row.nest-footer-menu a {
     top: 85px;
     border-radius: 4px;
     overflow: hidden;
-    font-family: "Open Sans Light";
+    font-family: "Open Sans Light", Helvetica, sans-serif;
     width: 400px;
     text-align: center; }
     .modal-view .modal-dialog .modal-header {
@@ -2205,7 +2205,7 @@ ul.row.enel-top-menu li {
   padding: 0 30px;
   font-size: 16px;
   line-height: 90px;
-  font-family: "Open Sans Light"; }
+  font-family: "Open Sans Light", Helvetica, sans-serif; }
   ul.row.enel-top-menu li.active {
     background: #d2a541; }
     ul.row.enel-top-menu li.active a {
@@ -2222,11 +2222,11 @@ ul.row.enel-top-menu li {
     width: 100%;
     line-height: 45px;
     color: #fff;
-    font-family: "Open Sans Regular"; }
+    font-family: "Open Sans Regular", Helvetica, sans-serif; }
   ul.row.enel-top-menu li a {
     color: #d2a541;
     text-transform: uppercase;
-    font-family: "Open Sans Regular"; }
+    font-family: "Open Sans Regular", Helvetica, sans-serif; }
     ul.row.enel-top-menu li a:active {
       text-decoration: none; }
     ul.row.enel-top-menu li a:hover {
@@ -2279,6 +2279,11 @@ div#navNotLoggedIn-view {
     background-size: cover !important;
     background-position: bottom !important;
     height: 450px !important; }
+  .top-banner.bg-aw139 {
+    background: url("../img/aw139/aw139-7.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 450px !important; }
   .top-banner .arrow-down {
     position: absolute;
     bottom: 35px;
@@ -2310,7 +2315,7 @@ img.logo-holder {
     display: inline-block;
     text-transform: uppercase;
     font-size: 32px;
-    font-family: "Open Sans Semibold"; }
+    font-family: "Open Sans Semibold", Helvetica, sans-serif; }
 
 .how-it-works {
   background: url("http://demos.shixels.com/nest_av/img/bg2.jpg");
@@ -2356,7 +2361,7 @@ a.btn.btn-gold.request-quote-button {
   margin-top: 4px; }
   .row.services-chunks-holder .chunk .title h1 {
     padding: 0;
-    font-family: "Open Sans Regular";
+    font-family: "Open Sans Regular", Helvetica, sans-serif;
     color: white;
     margin: 0;
     line-height: 60px;
@@ -2375,7 +2380,7 @@ a.btn.btn-gold.request-quote-button {
     .row.services-chunks-holder .chunk .bullets ul li {
       padding: 10px 0;
       font-size: 16px !important;
-      font-family: "Open Sans Regular"; }
+      font-family: "Open Sans Regular", Helvetica, sans-serif; }
 
 .ad-icons-holder {
   color: #857462; }
@@ -2397,7 +2402,7 @@ a.btn.btn-gold.request-quote-button {
     display: block;
     margin: 0;
     padding: 0;
-    font-family: "Open Sans Light";
+    font-family: "Open Sans Light", Helvetica, sans-serif;
     font-size: 12px;
     padding: 10px 0; }
 
@@ -2414,7 +2419,7 @@ a.btn.btn-gold.request-quote-button {
     left: 35px; }
     .bullets ul li {
       padding: 10px 0;
-      font-family: "Open Sans Light"; }
+      font-family: "Open Sans Light", Helvetica, sans-serif; }
 
 .landing-cal {
   margin-top: 50px; }
@@ -2438,8 +2443,8 @@ a.btn.btn-gold.request-quote-button {
   position: absolute;
   color: white;
   z-index: 100;
-  top: 40%;
-  font-family: "Open Sans Semibold";
+  top: 35%;
+  font-family: "Open Sans Semibold", Helvetica, sans-serif;
   font-size: 4.5em;
   width: 100%;
   text-align: center; }
@@ -2504,19 +2509,87 @@ input#amount {
 label.amountlabel {
   border: none !important; }
 
+.top-banner h4 {
+  position: absolute;
+  color: #d2a541;
+  z-index: 100;
+  top: 55%;
+  font-family: "Open Sans Semibold", Helvetica, sans-serif;
+  font-size: 2.5em;
+  width: 100%;
+  text-align: center; }
+
+.row.about-us .thumbnail img {
+  height: 239px;
+  overflow: hidden; }
+
+.middlebutton {
+  text-align: center; }
+
+a.thumbnail img {
+  height: 100% !important; }
+
 .bg-img {
   background-size: cover;
   background-position: center; }
-  .bg-img.jet {
-    background-image: url("http://demos.shixels.com/nest_av/img/N990EA Exterior 2.jpg"); }
+  .bg-img.g450 {
+    background-image: url("../img/g450/g450-59.jpg"); }
+  .bg-img.g200 {
+    background-image: url("../img/g200/g200-1.jpg"); }
   .bg-img.helicopter {
-    background-image: url("http://demos.shixels.com/nest_av/img/Single AW139 BRL.jpg"); }
+    background-image: url("../img/Single AW139 BRL.jpg"); }
   .bg-img.transport {
-    background-image: url("http://demos.shixels.com/nest_av/img/Helicopter pictures/044A3043.JPG"); }
+    background-image: url("../img/bg-transport.jpg");
+    background-position: top !important; }
   .bg-img.hangarage {
-    background-image: url("http://demos.shixels.com/nest_av/img/044A2921.jpg"); }
+    background-image: url("../img/044A2921.jpg"); }
   .bg-img.top {
     background-position: 0 35% !important; }
+  .bg-img.bom300 {
+    background-image: url("../img/bom/bom-2.jpg"); }
+  .bg-img.des900dx {
+    background-image: url("../img/des/des-4.jpg"); }
+  .bg-img.phen300 {
+    background-image: url("../img/phen/phen-1.jpg"); }
+  .bg-img.sikorsky {
+    background-image: url("../img/sikorsky/sikorsky-3.jpg"); }
+
+.top-banner {
+  margin: 0 !important;
+  width: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover; }
+  .top-banner.g450 {
+    background-image: url("../img/g450/g450-59.jpg");
+    height: 450px !important; }
+  .top-banner.des900dx {
+    background-image: url("../img/des/des-4.jpg");
+    height: 450px !important; }
+  .top-banner.g200 {
+    background-image: url("../img/g200/g200-1.jpg");
+    height: 450px !important; }
+  .top-banner.bom300 {
+    background-image: url("../img/bom/bom-2.jpg");
+    height: 450px !important; }
+  .top-banner.phen300 {
+    background-image: url("../img/phen/phen-1.jpg");
+    height: 450px !important; }
+  .top-banner.helicopter {
+    background-image: url("../img/Single AW139 BRL.jpg");
+    height: 450px !important; }
+  .top-banner.transport {
+    background-image: url("../img/bg-transport.jpg");
+    height: 450px !important;
+    background-position: top !important; }
+  .top-banner.hangarage {
+    background-image: url("../img/044A2921.jpg");
+    height: 450px !important; }
+  .top-banner.top {
+    background-position: 0 35% !important; }
+  .top-banner.sikorsky {
+    background-image: url("../img/sikorsky/sikorsky-3.jpg");
+    height: 450px !important; }
 
 .feature {
   font-size: 1.5em;
@@ -2524,7 +2597,7 @@ label.amountlabel {
   .feature span {
     position: relative;
     color: #857462;
-    font-family: "Open Sans Semibold"; }
+    font-family: "Open Sans Semibold", Helvetica, sans-serif; }
   .feature .feature-icon {
     font-size: 2.5em;
     color: #d2a541;
@@ -2545,7 +2618,7 @@ ul.subfeatures li {
 .sub-value {
   font-size: 9px;
   background: #2b2a29;
-  font-family: "Open Sans Semibold";
+  font-family: "Open Sans Semibold", Helvetica, sans-serif;
   color: #fff;
   padding: 10px;
   border-radius: 4px;
@@ -2567,6 +2640,20 @@ li.subfeature {
   border-radius: 5px; }
   li.subfeature img {
     width: 200px; }
+
+ol.breadcrumb {
+  text-transform: capitalize;
+  padding: 20px 0;
+  padding-left: 35px;
+  margin-bottom: -10px; }
+  ol.breadcrumb li {
+    display: inline; }
+
+.row.about-us img {
+  width: 100%; }
+
+.row.about-us .col-md-3 {
+  margin-top: 15px; }
 
 #Contact_content .contact-box {
   padding: 20px;
@@ -2598,7 +2685,7 @@ li.subfeature {
   border-radius: 4px;
   color: white;
   text-transform: uppercase;
-  font-family: "Open Sans Semibold"; }
+  font-family: "Open Sans Semibold", Helvetica, sans-serif; }
 
 .contact-wait {
   width: 100%;
@@ -2653,6 +2740,9 @@ li.subfeature {
   /* landscape tablet */
   .row.top-banner h1 {
     font-size: 2em; }
+
+  .row.top-banner h4 {
+    font-size: 1em; }
 
   ul.subfeatures {
     height: 100%; }
@@ -2711,6 +2801,9 @@ li.subfeature {
   .row.top-banner h1 {
     font-size: 2em; }
 
+  .row.top-banner h4 {
+    font-size: 1em; }
+
   ul.subfeatures {
     height: 100%; }
 
@@ -2766,6 +2859,9 @@ li.subfeature {
 @media only screen and (max-width: 667px) and (min-width: 667px) {
   .row.top-banner h1 {
     font-size: 2em; }
+
+  .row.top-banner h4 {
+    font-size: 1em; }
 
   .row.choose-pic-holder p {
     padding: 0 10%; }
@@ -2823,6 +2919,9 @@ li.subfeature {
   .row.top-banner h1 {
     font-size: 2em; }
 
+  .row.top-banner h4 {
+    font-size: 1em; }
+
   ul.subfeatures {
     height: 100%; }
 
@@ -2879,6 +2978,9 @@ li.subfeature {
   /* portrait phones */
   .row.top-banner h1 {
     font-size: 2em; }
+
+  .row.top-banner h4 {
+    font-size: 1em; }
 
   ul.subfeatures {
     height: 100%; }
@@ -12218,14 +12320,14 @@ html, body, #page {
   font-weight: 400 !important;
   overflow-x: hidden;
   overflow-y: scroll;
-  font-family: "Open Sans Light"; }
+  font-family: "Open Sans Light", Helvetica, sans-serif; }
 
 #main-body-container {
   height: 100%; }
 
 a {
   color: #3c2c6f;
-  font-family: "Open Sans Semibold"; }
+  font-family: "Open Sans Semibold", Helvetica, sans-serif; }
   a:hover {
     color: darken #3c2c6f, 5%;
     text-decoration: none; }

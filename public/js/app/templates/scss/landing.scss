@@ -25,6 +25,12 @@
                 height: 450px !important;
 
         }
+        &.bg-aw139 {
+            background: url('../img/aw139/aw139-7.jpg') !important;
+            background-size: cover !important;
+                background-position: center !important;
+                height: 450px !important;
+        }
        
         .arrow-down {
     position: absolute;
@@ -217,7 +223,7 @@ a.btn.btn-gold.request-quote-button {
     position: absolute;
     color: white;
     z-index: 100;
-    top: 40%;
+    top: 35%;
     font-family: $primary_font_semibold;
     font-size: 4.5em;
     width: 100%;
@@ -282,4 +288,14 @@ input#amount {
 }
 label.amountlabel {
     border: none !important;
+}
+.top-banner h4 {
+    position: absolute;
+    color: $gold;
+    z-index: 100;
+    top: 55%;
+    font-family: $primary_font_semibold;
+    font-size: 2.5em;
+    width: 100%;
+    text-align: center;
 }

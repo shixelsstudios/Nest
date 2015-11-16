@@ -63,6 +63,10 @@ define([
             $('.enel-top-menu li').removeClass('active');
             $(menu).addClass('active');
             $('.desk-menu').animate({"right": '-80%'});
+
+            if (nest.mobile) {
+              $('.mobile-menu').show();
+            }
                 $('.mobile-menu-hide').hide();
         },
         modal: function(the_modal) {

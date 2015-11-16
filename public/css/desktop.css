@@ -2304,7 +2304,7 @@ div#navNotLoggedIn-view {
     background-position: bottom !important;
     height: 450px !important; }
   .top-banner.bg-aw139 {
-    background: url("../img/aw139/aw139-7.jpg") !important;
+    background: url("http://demos.shixels.com/nest_av/img/aw139/aw139-7.jpg") !important;
     background-size: cover !important;
     background-position: center !important;
     height: 450px !important; }
@@ -2557,26 +2557,26 @@ a.thumbnail img {
   background-size: cover;
   background-position: center; }
   .bg-img.g450 {
-    background-image: url("../img/g450/g450-59.jpg"); }
+    background-image: url("http://demos.shixels.com/nest_av/img/g450/g450-59.jpg"); }
   .bg-img.g200 {
-    background-image: url("../img/g200/g200-1.jpg"); }
+    background-image: url("http://demos.shixels.com/nest_av/img/g200/g200-1.jpg"); }
   .bg-img.helicopter {
-    background-image: url("../img/Single AW139 BRL.jpg"); }
+    background-image: url("http://demos.shixels.com/nest_av/img/Single AW139 BRL.jpg"); }
   .bg-img.transport {
-    background-image: url("../img/bg-transport.jpg");
+    background-image: url("http://demos.shixels.com/nest_av/img/bg-transport.jpg");
     background-position: top !important; }
   .bg-img.hangarage {
-    background-image: url("../img/044A2921.jpg"); }
+    background-image: url("http://demos.shixels.com/nest_av/img/044A2921.jpg"); }
   .bg-img.top {
     background-position: 0 35% !important; }
   .bg-img.bom300 {
-    background-image: url("../img/bom/bom-2.jpg"); }
+    background-image: url("http://demos.shixels.com/nest_av/img/bom/bom-2.jpg"); }
   .bg-img.des900dx {
-    background-image: url("../img/des/des-4.jpg"); }
+    background-image: url("http://demos.shixels.com/nest_av/img/des/des-4.jpg"); }
   .bg-img.phen300 {
-    background-image: url("../img/phen/phen-1.jpg"); }
+    background-image: url("http://demos.shixels.com/nest_av/img/phen/phen-1.jpg"); }
   .bg-img.sikorsky {
-    background-image: url("../img/sikorsky/sikorsky-3.jpg"); }
+    background-image: url("http://demos.shixels.com/nest_av/img/sikorsky/sikorsky-3.jpg"); }
 
 .top-banner {
   margin: 0 !important;
@@ -2585,34 +2585,34 @@ a.thumbnail img {
   background-position: center;
   background-size: cover; }
   .top-banner.g450 {
-    background-image: url("../img/g450/g450-59.jpg");
+    background-image: url("http://demos.shixels.com/nest_av/img/g450/g450-59.jpg");
     height: 450px !important; }
   .top-banner.des900dx {
-    background-image: url("../img/des/des-4.jpg");
+    background-image: url("http://demos.shixels.com/nest_av/img/des/des-4.jpg");
     height: 450px !important; }
   .top-banner.g200 {
-    background-image: url("../img/g200/g200-1.jpg");
+    background-image: url("http://demos.shixels.com/nest_av/img/g200/g200-1.jpg");
     height: 450px !important; }
   .top-banner.bom300 {
-    background-image: url("../img/bom/bom-2.jpg");
+    background-image: url("http://demos.shixels.com/nest_av/img/bom/bom-2.jpg");
     height: 450px !important; }
   .top-banner.phen300 {
-    background-image: url("../img/phen/phen-1.jpg");
+    background-image: url("http://demos.shixels.com/nest_av/img/phen/phen-1.jpg");
     height: 450px !important; }
   .top-banner.helicopter {
-    background-image: url("../img/Single AW139 BRL.jpg");
+    background-image: url("http://demos.shixels.com/nest_av/img/Single AW139 BRL.jpg");
     height: 450px !important; }
   .top-banner.transport {
-    background-image: url("../img/bg-transport.jpg");
+    background-image: url("http://demos.shixels.com/nest_av/img/bg-transport.jpg");
     height: 450px !important;
     background-position: top !important; }
   .top-banner.hangarage {
-    background-image: url("../img/044A2921.jpg");
+    background-image: url("http://demos.shixels.com/nest_av/img/044A2921.jpg");
     height: 450px !important; }
   .top-banner.top {
     background-position: 0 35% !important; }
   .top-banner.sikorsky {
-    background-image: url("../img/sikorsky/sikorsky-3.jpg");
+    background-image: url("http://demos.shixels.com/nest_av/img/sikorsky/sikorsky-3.jpg");
     height: 450px !important; }
 
 .feature {

@@ -1,7 +1,3 @@
-/*
-    MansardAPI
-    - Does all API calls and returns JSON objects for use
-*/
 define([
     "jquery",
     "underscore",
@@ -22,7 +18,6 @@ define([
 
       },
       email: function(to, from, body, subject) {
-          console.log(to);
           $.ajax({
                 type: "POST",
                 url: "https://mandrillapp.com/api/1.0/messages/send.json",
@@ -42,7 +37,6 @@ define([
                   }
                 }
                }).done(function(response) {
-                 console.log(response[0]); // if you're into that sorta thing
                  $('.notify-wait').addClass('sent');
                  if (response[0].status === 'sent') {
 
@@ -96,7 +90,7 @@ define([
           return function (a,b) {
               var result = (a[property] < b[property]) ? -1 : (a[property] > b[property]) ? 1 : 0;
               return result * sortOrder;
-          }
+          };
       }
      });
 

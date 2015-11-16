@@ -201,10 +201,10 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                     this.subproduct.gallery.path = '../img/g200/g200-';
                     this.subproduct.gallery.images = [];
 
-                    for (var i = 1; i <= this.subproduct.gallery.count; i++) {
+                    for (var j = 1; j <= this.subproduct.gallery.count; j++) {
                         this.subproduct.gallery.images.push(
                             {
-                                path: this.subproduct.gallery.path + i + '.jpg'
+                                path: this.subproduct.gallery.path + j + '.jpg'
                             }
                         );
                     }
@@ -285,10 +285,10 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                     this.subproduct.gallery.path = '../img/sikorsky/sikorsky-';
                     this.subproduct.gallery.images = [];
 
-                    for (var i = 1; i <= this.subproduct.gallery.count; i++) {
+                    for (var k = 1; k <= this.subproduct.gallery.count; k++) {
                         this.subproduct.gallery.images.push(
                             {
-                                path: this.subproduct.gallery.path + i + '.jpg'
+                                path: this.subproduct.gallery.path + k + '.jpg'
                             }
                         );
                     }
@@ -369,10 +369,10 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                     this.subproduct.gallery.path = '../img/sikorsky/sikorsky-';
                     this.subproduct.gallery.images = [];
 
-                    for (var i = 1; i <= this.subproduct.gallery.count; i++) {
+                    for (var l = 1; l <= this.subproduct.gallery.count; l++) {
                         this.subproduct.gallery.images.push(
                             {
-                                path: this.subproduct.gallery.path + i + '.jpg'
+                                path: this.subproduct.gallery.path + l + '.jpg'
                             }
                         );
                     }
@@ -466,10 +466,10 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                     this.subproduct.gallery.path = '../img/bombardier/bombardier-';
                     this.subproduct.gallery.images = [];
 
-                    for (var i = 1; i <= this.subproduct.gallery.count; i++) {
+                    for (var o = 1; o <= this.subproduct.gallery.count; o++) {
                         this.subproduct.gallery.images.push(
                             {
-                                path: this.subproduct.gallery.path + i + '.jpg'
+                                path: this.subproduct.gallery.path + o + '.jpg'
                             }
                         );
                     }
@@ -559,10 +559,10 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                     this.subproduct.gallery.path = '../img/bombardier/bombardier-';
                     this.subproduct.gallery.images = [];
 
-                    for (var i = 1; i <= this.subproduct.gallery.count; i++) {
+                    for (var n = 1; n <= this.subproduct.gallery.count; n++) {
                         this.subproduct.gallery.images.push(
                             {
-                                path: this.subproduct.gallery.path + i + '.jpg'
+                                path: this.subproduct.gallery.path + n + '.jpg'
                             }
                         );
                     }
@@ -618,10 +618,10 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                     this.subproduct.gallery.path = '../img/bombardier/bombardier-';
                     this.subproduct.gallery.images = [];
 
-                    for (var i = 1; i <= this.subproduct.gallery.count; i++) {
+                    for (var m = 1; m <= this.subproduct.gallery.count; m++) {
                         this.subproduct.gallery.images.push(
                             {
-                                path: this.subproduct.gallery.path + i + '.jpg'
+                                path: this.subproduct.gallery.path + m + '.jpg'
                             }
                         );
                     }
@@ -631,7 +631,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
 
             this.model = new Model({subproduct: this.subproduct});
             $(function () {
-              $('[data-toggle="tooltip"]').tooltip()
+              $('[data-toggle="tooltip"]').tooltip();
             });
 
             console.log(this.subproduct);

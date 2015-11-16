@@ -22,9 +22,7 @@ define(['jquery','kalendar', 'hbs!templates/landing', 'backbone','models/Model',
                     onDayClick: function(e) {
                         $('.to_cal .c-day').removeClass('this-day');
                         $(e.currentTarget).addClass('this-day');
-                      console.log("The Date Object "
-                            + e.data.date + " and it’s "
-                            + e.data.info);
+                      console.log("The Date Object " + e.data.date + " and it’s "+ e.data.info);
                     }
                 };
                 var fromoptions = { 
@@ -34,9 +32,7 @@ define(['jquery','kalendar', 'hbs!templates/landing', 'backbone','models/Model',
                     onDayClick: function(e) {
                          $('.from_cal .c-day').removeClass('this-day');
                         $(e.currentTarget).addClass('this-day');
-                      console.log("The Date Object "
-                            + e.data.date + " and it’s "
-                            + e.data.info);
+                      console.log("The Date Object " + e.data.date + " and it’s "+ e.data.info);
                     }
                 };
                 setTimeout(function(){  
@@ -96,7 +92,7 @@ define(['jquery','kalendar', 'hbs!templates/landing', 'backbone','models/Model',
 
                             response(ret);
                         }
-                    })
+                    });
                
             },
             MoreInfo: function(e) {

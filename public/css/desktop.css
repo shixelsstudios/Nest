@@ -2258,24 +2258,24 @@ div#navNotLoggedIn-view {
   right: -80%; }
 
 .top-banner {
-  background: url("../img/nbg.jpg");
+  background: url("http://demos.shixels.com/nest_av/img/nbg.jpg");
   height: 700px;
   margin: 0 !important;
   width: 100%;
   position: relative;
   background-position: bottom; }
   .top-banner.bg-op {
-    background: url("../img/N990EA Exterior 3 Copy.jpg") !important;
+    background: url("http://demos.shixels.com/nest_av/img/N990EA Exterior 3 Copy.jpg") !important;
     background-size: cover !important;
     background-position: center !important;
     height: 450px !important; }
   .top-banner.bg-peep {
-    background: url("../img/bgpeep.jpg") !important;
+    background: url("http://demos.shixels.com/nest_av/img/bgpeep.jpg") !important;
     background-size: cover !important;
     background-position: top !important;
     height: 450px !important; }
   .top-banner.bg-serv {
-    background: url("../img/Helicopter pictures/044A2919.JPG") !important;
+    background: url("http://demos.shixels.com/nest_av/img/Helicopter pictures/044A2919.JPG") !important;
     background-size: cover !important;
     background-position: bottom !important;
     height: 450px !important; }
@@ -2312,14 +2312,14 @@ img.logo-holder {
     font-family: "Open Sans Semibold"; }
 
 .how-it-works {
-  background: url("../img/bg2.jpg");
+  background: url("http://demos.shixels.com/nest_av/img/bg2.jpg");
   background-size: cover; }
 
 .row.video-holder img {
   width: 80%; }
 
 .request-quote {
-  background: url("../img/bg3.jpg");
+  background: url("http://demos.shixels.com/nest_av/img/bg3.jpg");
   background-size: cover; }
 
 .container.calendar-holder img {
@@ -2367,7 +2367,7 @@ a.btn.btn-gold.request-quote-button {
   height: 180px;
   text-align: left; }
   .row.services-chunks-holder .chunk .bullets ul {
-    list-style-image: url("../img/plane.png");
+    list-style-image: url("http://demos.shixels.com/nest_av/img/plane.png");
     text-align: left;
     position: relative;
     left: 35px; }
@@ -2407,7 +2407,7 @@ a.btn.btn-gold.request-quote-button {
   min-height: 180px;
   text-align: left; }
   .bullets ul {
-    list-style-image: url("../img/plane.png");
+    list-style-image: url("http://demos.shixels.com/nest_av/img/plane.png");
     text-align: left;
     position: relative;
     left: 35px; }
@@ -2507,13 +2507,13 @@ label.amountlabel {
   background-size: cover;
   background-position: center; }
   .bg-img.jet {
-    background-image: url("../img/N990EA Exterior 2.jpg"); }
+    background-image: url("http://demos.shixels.com/nest_av/img/N990EA Exterior 2.jpg"); }
   .bg-img.helicopter {
-    background-image: url("../img/Single AW139 BRL.jpg"); }
+    background-image: url("http://demos.shixels.com/nest_av/img/Single AW139 BRL.jpg"); }
   .bg-img.transport {
-    background-image: url("../img/Helicopter pictures/044A3043.JPG"); }
+    background-image: url("http://demos.shixels.com/nest_av/img/Helicopter pictures/044A3043.JPG"); }
   .bg-img.hangarage {
-    background-image: url("../img/044A2921.jpg"); }
+    background-image: url("http://demos.shixels.com/nest_av/img/044A2921.jpg"); }
   .bg-img.top {
     background-position: 0 35% !important; }
 
@@ -9168,7 +9168,7 @@ button.close {
   width: 30px; }
 
 .editableform-loading {
-  background: url("../../../img/loading.gif") center center no-repeat;
+  background: url("http://demos.shixels.com/nest_av/img/loading.gif") center center no-repeat;
   height: 25px;
   width: auto;
   min-width: 25px; }
@@ -9223,7 +9223,7 @@ button.close {
 
 /* IOS-style clear button for text inputs */
 .editable-clear-x {
-  background: url("../img/clear.png") center center no-repeat;
+  background: url("http://demos.shixels.com/nest_av/img/clear.png") center center no-repeat;
   display: block;
   width: 13px;
   height: 13px;
@@ -12092,7 +12092,7 @@ body .ui-tooltip {
 
 label.iPhoneCheckLabelOn {
   color: white;
-  background: url("../../../img/iphone-style-checkboxes/on.png?1284697268") no-repeat;
+  background: url("http://demos.shixels.com/nest_av/img/iphone-style-checkboxes/on.png?1284697268") no-repeat;
   text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
   left: 0;
   padding-top: 5px; }
@@ -12102,7 +12102,7 @@ label.iPhoneCheckLabelOn span {
 
 label.iPhoneCheckLabelOff {
   color: #8b8b8b;
-  background: url("../../../img/iphone-style-checkboxes/off.png?1284697268") no-repeat right 0;
+  background: url("http://demos.shixels.com/nest_av/img/iphone-style-checkboxes/off.png?1284697268") no-repeat right 0;
   text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.6);
   text-align: right;
   right: 0; }
@@ -12118,19 +12118,19 @@ label.iPhoneCheckLabelOff span {
   top: 0;
   left: 0;
   width: 0;
-  background: url("../../../img/iphone-style-checkboxes/slider_left.png?1284697268") no-repeat;
+  background: url("http://demos.shixels.com/nest_av/img/iphone-style-checkboxes/slider_left.png?1284697268") no-repeat;
   padding-left: 3px; }
 
 .iPhoneCheckHandleRight {
   height: 100%;
   width: 100%;
   padding-right: 3px;
-  background: url("../../../img/iphone-style-checkboxes/slider_right.png?1284697268") no-repeat right 0; }
+  background: url("http://demos.shixels.com/nest_av/img/iphone-style-checkboxes/slider_right.png?1284697268") no-repeat right 0; }
 
 .iPhoneCheckHandleCenter {
   height: 100%;
   width: 100%;
-  background: url("../../../img/iphone-style-checkboxes/slider_center.png?1284697268"); }
+  background: url("http://demos.shixels.com/nest_av/img/iphone-style-checkboxes/slider_center.png?1284697268"); }
 
 .iOSCheckContainer {
   position: relative;
@@ -12171,7 +12171,7 @@ label.iPhoneCheckLabelOff span {
 
 label.iOSCheckLabelOn {
   color: white;
-  background: url("../../../img/ios-style-checkboxes/on.png?1284697268") no-repeat;
+  background: url("http://demos.shixels.com/nest_av/img/ios-style-checkboxes/on.png?1284697268") no-repeat;
   text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
   left: 0;
   padding-top: 5px; }
@@ -12181,7 +12181,7 @@ label.iOSCheckLabelOn span {
 
 label.iOSCheckLabelOff {
   color: #8b8b8b;
-  background: url("../../../img/ios-style-checkboxes/off.png?1284697268") no-repeat right 0;
+  background: url("http://demos.shixels.com/nest_av/img/ios-style-checkboxes/off.png?1284697268") no-repeat right 0;
   text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.6);
   text-align: right;
   right: 0; }
@@ -12197,19 +12197,19 @@ label.iOSCheckLabelOff span {
   top: 0;
   left: 0;
   width: 0;
-  background: url("../../../img/ios-style-checkboxes/slider_left.png?1284697268") no-repeat;
+  background: url("http://demos.shixels.com/nest_av/img/ios-style-checkboxes/slider_left.png?1284697268") no-repeat;
   padding-left: 3px; }
 
 .iOSCheckHandleRight {
   height: 100%;
   width: 100%;
   padding-right: 3px;
-  background: url("../../../img/ios-style-checkboxes/slider_right.png?1284697268") no-repeat right 0; }
+  background: url("http://demos.shixels.com/nest_av/img/ios-style-checkboxes/slider_right.png?1284697268") no-repeat right 0; }
 
 .iOSCheckHandleCenter {
   height: 100%;
   width: 100%;
-  background: url("../../../img/ios-style-checkboxes/slider_center.png?1284697268"); }
+  background: url("http://demos.shixels.com/nest_av/img/ios-style-checkboxes/slider_center.png?1284697268"); }
 
 html, body, #page {
   width: 100%;

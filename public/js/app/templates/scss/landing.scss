@@ -1,25 +1,25 @@
 .top-banner {
-    background: url("../img/nbg.jpg");
+    background: url("http://demos.shixels.com/nest_av/img/nbg.jpg");
     height: 700px;
         margin: 0 !important;
         width: 100%;
         position: relative;
         background-position: bottom;
         &.bg-op {
-            background: url('../img/N990EA Exterior 3 Copy.jpg') !important;
+            background: url('http://demos.shixels.com/nest_av/img/N990EA Exterior 3 Copy.jpg') !important;
             background-size: cover !important;
                 background-position: center !important;
                 height: 450px !important;
         }
         &.bg-peep {
-            background: url('../img/bgpeep.jpg') !important;
+            background: url('http://demos.shixels.com/nest_av/img/bgpeep.jpg') !important;
                 background-size: cover !important;
                 background-position: top !important;
                 height: 450px !important;
 
         }
         &.bg-serv {
-            background: url('../img/Helicopter pictures/044A2919.JPG') !important;
+            background: url('http://demos.shixels.com/nest_av/img/Helicopter pictures/044A2919.JPG') !important;
                 background-size: cover !important;
                 background-position: bottom !important;
                 height: 450px !important;
@@ -64,7 +64,7 @@ img.logo-holder {
     }
 }
 .how-it-works {
-    background: url("../img/bg2.jpg");
+    background: url("http://demos.shixels.com/nest_av/img/bg2.jpg");
     background-size: cover;
 }
 .row.video-holder img {
@@ -73,7 +73,7 @@ img.logo-holder {
 }
 
 .request-quote {
-    background: url("../img/bg3.jpg");
+    background: url("http://demos.shixels.com/nest_av/img/bg3.jpg");
     background-size: cover;
 }
 
@@ -131,7 +131,7 @@ a.btn.btn-gold.request-quote-button {
             height: 180px;
             text-align: left;
             ul {
-                list-style-image: url('../img/plane.png');
+                list-style-image: url('http://demos.shixels.com/nest_av/img/plane.png');
                 text-align: left;
                 position: relative;
                 left: 35px;
@@ -181,7 +181,7 @@ a.btn.btn-gold.request-quote-button {
             min-height: 180px;
             text-align: left;
             ul {
-                list-style-image: url('../img/plane.png');
+                list-style-image: url('http://demos.shixels.com/nest_av/img/plane.png');
                 text-align: left;
                 position: relative;
                 left: 35px;

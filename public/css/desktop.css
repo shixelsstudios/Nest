@@ -65,19 +65,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 @font-face {
   font-family: "Open Sans Light";
-  src: url('/public/fonts/../fonts/opensans/light.ttf?1389111650') format('truetype'); }
+  src: url('/public/fonts/../nest_av/fonts/opensans/light.ttf') format('truetype'); }
 @font-face {
   font-family: "Open Sans Regular";
-  src: url('/public/fonts/../fonts/opensans/regular.ttf?1389111650') format('truetype'); }
+  src: url('/public/fonts/../nest_av/fonts/opensans/regular.ttf') format('truetype'); }
 @font-face {
   font-family: "Open Sans Semibold";
-  src: url('/public/fonts/../fonts/opensans/semibold.ttf?1389111650') format('truetype'); }
+  src: url('/public/fonts/../nest_av/fonts/opensans/semibold.ttf') format('truetype'); }
 @font-face {
   font-family: "Open Sans Bold";
-  src: url('/public/fonts/../fonts/opensans/bold.ttf?1389111650') format('truetype'); }
+  src: url('/public/fonts/../nest_av/fonts/opensans/bold.ttf') format('truetype'); }
 @font-face {
   font-family: "Open Sans Extrabold";
-  src: url('/public/fonts/../fonts/opensans/extrabold.ttf?1389111650') format('truetype'); }
+  src: url('/public/fonts/../nest_av/fonts/opensans/extrabold.ttf') format('truetype'); }
 .light {
   font-family: "Open Sans Light" !important; }
 

@@ -2095,7 +2095,7 @@ ul.row.nest-footer-menu a {
   top: inherit !important;
   position: absolute;
   right: 50px !important;
-  bottom: 35px;
+  bottom: 115px;
   left: inherit; }
 
 .footer-view h2 {
@@ -2104,6 +2104,30 @@ ul.row.nest-footer-menu a {
   padding: 30px 15%;
   font-size: 20px;
   font-family: "Open Sans Extrabold", Helvetica, sans-serif; }
+
+ul.bottom-footer {
+  background: white;
+  text-align: center; }
+  ul.bottom-footer li {
+    display: inline-block;
+    width: 100px;
+    overflow: hidden;
+    height: 50px;
+    margin: 0 40px;
+    line-height: 55px;
+    cursor: pointer;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); }
+    ul.bottom-footer li:hover {
+      -webkit-filter: none;
+      filter: none; }
+  ul.bottom-footer img {
+    width: 100%; }
+
+ul.bottom-footer h1 {
+  margin: 0;
+  font-size: 14px;
+  margin-top: 15px; }
 
 .modal-view {
   width: 100%;

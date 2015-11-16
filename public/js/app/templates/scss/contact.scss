@@ -1,0 +1,120 @@
+#Contact_content .contact-box {
+    padding: 20px;
+    background-color: #303030;
+    color: #ffffff;
+    border-left: 10px solid $gold;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+.contact-view {
+	position: relative;
+	.contact-view-body {padding: 0 10% !important};
+	.form-holder {
+    width: 100%;
+    margin: 50px auto;
+
+}
+.form-holder form .form-group .SideFloat {
+    margin-bottom: 15px;
+    width: 100%;
+}
+.form-holder form .form-group .SideFloatR {
+    margin-bottom: 15px;
+    width: 100%;
+}
+}
+.contact-error {
+    background: $gold;
+    display: none;
+    margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+    font-family: $primary_font_semibold;
+}
+.contact-wait {
+    width: 100%;
+    display: none;
+    height: 100%;
+    background: $white;
+    position: absolute;
+    color: $gold;
+    z-index: 1;
+    opacity: 0.5;
+    text-align: center;
+    font-size: 14em;
+}
+// Contact_Activity Style
+#Contact_content{
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 700px;
+	padding: 100px 0px;
+	width: 100%;
+
+
+
+	.contact-box{
+
+
+		a {
+			color: #989898;
+		}
+
+		ul{
+
+			li{
+				list-style-type: none;
+				font-size: 20px;
+				font-weight: lighter;
+				padding: 5px;
+				color: #989898;
+
+				strong{
+					color: #ffffff;
+					font-weight: lighter;
+					font-size: 30px;
+				}
+			}
+		}
+	}
+}
+
+
+		
+
+	.form-holder{
+
+
+
+		form{
+
+			.form-group{
+				opacity: 0.95;
+
+				input{
+					border: none;
+					background-color: #F1F2F5;
+					font-weight: lighter;
+					text-transform: uppercase;
+					height: 50px;
+					
+				}
+
+				textarea{
+					height: 250px;
+					border: none;
+					font-weight: lighter;
+					background-color: #F1F2F5;
+					
+				}
+			}
+		}
+
+		.Btn_send{
+			background-color: $brown;
+			color: #ffffff;
+			padding: 10px 20px;
+		}
+	}			

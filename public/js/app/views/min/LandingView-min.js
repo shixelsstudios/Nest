@@ -1,0 +1,1 @@
+define(["jquery","hbs!templates/landing","backbone","models/Model","marionette"],function($,e,n,t){return n.Marionette.ItemView.extend({template:e,events:{},initialize:function(e){},onRender:function(){nest.api.core.cleanView(this,".home-menu")}})});

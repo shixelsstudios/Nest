@@ -1,0 +1,57 @@
+
+.feature {
+    font-size: 1.5em;
+    margin-bottom: 75px;
+
+    span {
+    	position: relative;
+    	color: $brown;
+    	font-family: $primary_font_semibold;
+    }
+    .feature-icon {
+    	font-size: 2.5em;
+    	color: $gold;
+        margin-bottom: 15px;
+	}
+	
+}
+
+.feature-center span {
+    display: block;
+}
+ul.subfeatures li {
+        display: inline-block;
+    margin: 4px;
+    font-size: 2em;
+    cursor: pointer;
+    width: 100px;
+    margin-top: 25px;
+    color: $title_grey;
+}
+.sub-value {
+    font-size: 9px;
+    background: $title_grey;
+    font-family: $primary_font_semibold;
+    color: $white;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100px;
+    margin: 0 auto;
+    display: none;
+    text-align: center;
+    text-transform: capitalize;
+}
+ul.subfeatures {
+    height: 60px;
+}
+li.subfeature {
+    display: inline-block;
+    width: 200px;
+    overflow: hidden;
+    height: 110px;
+    margin: 10px;
+    border-radius: 5px;
+    img {
+    width: 200px;
+}
+}

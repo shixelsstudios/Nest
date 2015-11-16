@@ -1,0 +1,284 @@
+.top-banner {
+    background: url("../img/nbg.jpg");
+    height: 700px;
+        margin: 0 !important;
+        width: 100%;
+        position: relative;
+        background-position: bottom;
+        &.bg-op {
+            background: url('../img/N990EA Exterior 3 Copy.jpg') !important;
+            background-size: cover !important;
+                background-position: center !important;
+                height: 450px !important;
+        }
+        &.bg-peep {
+            background: url('../img/bgpeep.jpg') !important;
+                background-size: cover !important;
+                background-position: top !important;
+                height: 450px !important;
+
+        }
+        &.bg-serv {
+            background: url('../img/Helicopter pictures/044A2919.JPG') !important;
+                background-size: cover !important;
+                background-position: bottom !important;
+                height: 450px !important;
+
+        }
+       
+        .arrow-down {
+    position: absolute;
+    bottom: 35px;
+    width: 100%;
+    text-align: center;
+    color: $gold;
+
+
+}
+}
+.landing-view {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+img.logo-holder {
+    width: 30%;
+    position: absolute;
+    margin: 0 auto;
+        top: 150px;
+    left: 600px;
+}
+.row.choose-pic-holder .col-md-6 img {
+    width: 100%;
+}
+
+.line-container {
+    text-align: center;
+    h1 {
+        color: $brown;
+        padding: 35px 0;
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: 32px;
+        font-family: $primary_font_semibold;
+    }
+}
+.how-it-works {
+    background: url("../img/bg2.jpg");
+    background-size: cover;
+}
+.row.video-holder img {
+    width: 80%;
+
+}
+
+.request-quote {
+    background: url("../img/bg3.jpg");
+    background-size: cover;
+}
+
+.container.calendar-holder img {
+    width: 60%;
+    margin-top: 35px;
+}
+
+.row.video-holder input, .row.video-holder select {
+    border: 1px solid white !important;
+    background: transparent !important;
+    color: white;
+    width: 50%;
+    padding: 0 15px;
+    border-radius: 2px !important;
+    margin-top: 25px;
+}
+a.btn.btn-gold.request-quote-button {
+    border: 2px solid $gold;
+    color: $gold;
+    margin: 40px 0;
+    margin-bottom: 0;
+    padding: 10px 25px;
+}
+.row.services-chunks-holder {
+   .chunk {
+        .img {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+                border-top: 3px solid $bullets_border;
+            img {
+                width: 100%;
+            }
+        }
+
+        .title {
+            background: $title_grey;
+            height: 60px;
+            margin-top: 4px;
+            h1 {
+                padding: 0;
+                font-family: $primary_font_regular;
+                color: white;
+                margin: 0;
+                line-height: 60px;
+                font-size: 22px;
+            }
+        }
+
+        .bullets {
+            background: $bullets_bg;
+            border-bottom: 3px solid $bullets_border;
+            padding: 15px;
+            height: 180px;
+            text-align: left;
+            ul {
+                list-style-image: url('../img/plane.png');
+                text-align: left;
+                position: relative;
+                left: 35px;
+
+                li {
+                    padding: 10px 0;
+                    font-size: 16px !important;
+                    font-family: $primary_font_regular;
+                }
+            }
+        }
+   }
+}
+.ad-icons-holder {
+    color: $brown;
+
+    h1 {
+            display: block;
+    color: $title_grey;
+    font-size: 16px;
+    margin: 0;
+    padding: 15px 0;
+    }
+}
+
+.more-info {
+    color: $gold;
+    position: relative;
+    top: -20px;
+    text-align: center;
+    .fa {
+        cursor: pointer;
+    }
+    h1 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-family: $primary_font_light;
+        font-size: 12px;
+    padding: 10px 0
+}
+}
+   .bullets {
+            background: $bullets_bg;
+            border-bottom: 3px solid $bullets_border;
+            padding: 15px;
+            min-height: 180px;
+            text-align: left;
+            ul {
+                list-style-image: url('../img/plane.png');
+                text-align: left;
+                position: relative;
+                left: 35px;
+
+                li {
+                    padding: 10px 0;
+                    font-family: $primary_font_light;
+                }
+            }
+        }
+
+        .landing-cal {
+    margin-top: 50px;
+
+   
+}
+[color=red] .c-month-view, [color=red] .c-day, [color=red] .specific-day, [color=red] .s-event {
+    background-color: $title_grey !Important;
+}
+[kalendar] .c-grid .c-row .c-day.c-l .date-holder, [kalendar] .c-month-view p {
+    color: $gold;
+}[color=red] {
+    background: lighten($title_grey, 10%) !Important;
+}
+.c-day.this-day {
+    background: $brown !important;
+}
+[kalendar] .c-month-view p {
+    background: darken($title_grey, 5%) !important;
+}
+.row.top-banner h1 {
+    position: absolute;
+    color: white;
+    z-index: 100;
+    top: 40%;
+    font-family: $primary_font_semibold;
+    font-size: 4.5em;
+    width: 100%;
+    text-align: center;
+}
+.row.video-holder h1 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    font-size: 20px;
+    color: $gold;
+}
+.quote-wait {
+    font-size: 25em;
+    position: absolute;
+    color: $brown;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    background: $title_grey;
+    opacity: 0.7;
+    display: none;
+    height: 32%;
+    left: 0;
+}
+.quote-message {
+    position: absolute;
+    color: $gold;
+    line-height: 500px;
+    font-size: 3em;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    background: $title_grey;
+    opacity: 0.7;
+    height: 32%;
+    left: 0;
+    display: none;
+}
+li.quote-menu.active .btn {
+    background: $title_grey;
+}
+.c-day {
+    cursor: pointer;
+}
+.row.choose-pic-holder input {
+    width: 80%;
+    text-align: left;
+    height: 50px !important;
+    float: left;
+    padding: 0 15px;
+}
+.row.choose-pic-holder label {
+    width: 100%;
+    text-align: left;
+    padding: 15px 0px;
+}
+input#amount {
+    border: none !important;
+    text-align: center;
+}
+label.amountlabel {
+    border: none !important;
+}

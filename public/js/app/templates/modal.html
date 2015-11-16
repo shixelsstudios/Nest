@@ -1,0 +1,26 @@
+<div class="modal-view">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        {{{modal.title}}}
+        <div class="modal-wait">
+          <i class="fa fa-spinner fa-pulse"></i>
+          <div class="modal-wait-box"></div>
+        </div>
+        <div class="modal-error"></div>
+        {{{modal.body}}}
+      </div>
+      <div class="modal-footer">
+      <div class="modal-buttons">
+      {{#if modal.no_button}}
+        <a class="btn btn-secondary pull-left no_button">{{modal.no_button}}</a>
+        {{/if}}
+        {{#if modal.yes_button}}
+        <a class="btn btn-primary pull-right yes_button">{{modal.yes_button}}</a>
+        {{/if}}
+        <div class="clear-fix"></div>
+        </div>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div>

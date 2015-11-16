@@ -1,0 +1,1 @@
+define(["jquery","hbs!templates/services","backbone","models/Model","marionette"],function($,e,n,t){return n.Marionette.ItemView.extend({template:e,model:null,events:{"click .more-info":"MoreInfo"},initialize:function(e){},onRender:function(){nest.api.core.cleanView(this,".serv-menu")},MoreInfo:function(e){e.preventDefault();var n=$(e.currentTarget).data("hash")}})});

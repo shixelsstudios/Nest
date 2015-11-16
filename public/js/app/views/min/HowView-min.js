@@ -1,0 +1,1 @@
+define(["jquery","hbs!templates/how","backbone","models/Model","marionette"],function($,e,n,t){return n.Marionette.ItemView.extend({template:e,model:null,events:{},initialize:function(e){},onRender:function(){nest.api.core.cleanView(this,".how-menu")}})});

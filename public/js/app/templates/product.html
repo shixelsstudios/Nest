@@ -1,0 +1,97 @@
+<div class="landing-view">
+	<div class="row top-banner {{product.banner}}">
+		<h1>{{product.h1}}</h1>
+		<div class="black-overlay"></div>
+		<div class="arrow-down">
+			<span class="fa-stack fa-lg fa-3x">
+			  <i class="fa fa-angle-down fa-stack-1x"></i>
+			  <i class="fa fa-circle-o fa-stack-2x"></i>
+			</span>
+		</div>
+	</div>	
+
+	<div class="row services-holder pad-bottom">
+		<div class="container  line-container">
+
+			<div class="center-justified">{{{product.des}}}</div>
+			<span class="line"><img src="../img/line.jpg"></span>
+			<h1>{{product.title}}</h1>
+			<span class="line"><img src="../img/line.jpg"></span>
+			<div class="row services-chunks-holder">
+			{{#if product.subproducts}}
+			{{#each product.subproducts}}
+				<div class="col-md-{{cols}} chunk">
+					<div class="img bg-img {{img}}"></div>
+					<div class="title"><h1 class="small-h1">{{title}}</h1></div>
+					<div class="bullets">
+						<p class="small-p">{{des}}</p>
+						
+					</div>
+					<div class="more-info" data-hash="#services/{{parent_slug}}/{{slug}}">
+							<span class="fa-stack fa-lg">
+							  <i class="fa fa-square fa-stack-2x fa-rotate-45"></i>
+									<i class="fa fa-plus fa-stack-1x fa-inverse"></i>
+							</span>
+							<h1>More Info</h1>
+						</div>
+				</div>
+			{{/each}}
+			{{/if}}
+			</div>
+			
+		</div>
+	</div>
+	{{#if product.partners}}
+	<div class="row services-holder pad-bottom">
+		<div class="container  line-container">
+			<span class="line"><img src="../img/line.jpg"></span>
+			<h1>{{product.subtitle}}</h1>
+			<span class="line"><img src="../img/line.jpg"></span>
+			<div class="row services-chunks-holder">
+			{{#each product.partners}}
+				<div class="col-md-{{cols}} chunk">
+					<div class="img bg-img {{img}}"></div>
+					<div class="title"><h1 class="small-h1">{{title}}</h1></div>
+					<div class="bullets">
+						<p class="small-p">{{des}}</p>
+						
+					</div>
+					<div class="more-info" data-hash="#services/{{parent_slug}}/{{slug}}">
+							<span class="fa-stack fa-lg">
+							  <i class="fa fa-square fa-stack-2x fa-rotate-45"></i>
+									<i class="fa fa-plus fa-stack-1x fa-inverse"></i>
+							</span>
+							<h1>More Info</h1>
+						</div>
+				</div>
+			{{/each}}
+			</div>
+			
+		</div>
+	</div>
+	{{/if}}
+
+	<div class="row">
+		<div class="footer-view">
+		<h2>Site Links</h2>
+			<ul class="row nest-footer-menu"> 
+			
+				<div class="col-md-3 col-xs-6">
+					<li class="home-menu active"><a href="#">Home</a></li>
+					<li class="about-menu"><a href="#about-us">About Us</a></li>
+					<li class="how-menu"><a href="#how-it-works">How it Works</a></li>
+					
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<li class="op-menu"><a href="#operations">Operations</a></li>
+					<li class="serv-menu"><a href="#services">Services</a></li>
+					<li class="contact-menu"><a href="#contact-us">Contact Us</a></li>
+				</div>
+				
+				
+			</ul>
+			<a href="#"><img class="nest-logo" src="../img/logo-inv.png"></a>
+		</div>
+	</div>
+	</div>
+</div>	

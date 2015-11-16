@@ -1,0 +1,326 @@
+//RED
+$red: #e21e24;
+$fadedred: #e21e24;
+
+.red {
+  color: $fadedred;
+}
+
+
+//GREENS
+$green: #5cc159;
+
+.green {
+  color: $green;
+}
+
+
+$gold: #d2a541;
+$brown: #857462;
+$title_grey: #2b2a29;
+$bullets_bg: #f7f5f6;
+$bullets_border: #e6e4e5;
+
+//WHITES
+$white: #fff;
+$clear: rgba(255,255,255,0);
+
+
+//BLACKS
+$black: #000;
+$black_t: rgba(0,0,0,0.6);
+
+//BLUES
+$blue: #3c2c6f;
+
+.blue {
+  color: $blue;
+}
+
+//ORANGES
+$orange: #e63d24;
+$light_orange: #f3b803;
+$dark_orange: #ca3721;
+$orange_line: #a42d1b;
+$light_orange_bg: #f9f8f3;
+
+//YELLOWS
+$yellowbg: #f5f5f2;
+
+//GREYS
+$grey: #eeeeee;
+$d_grey: #b4b4b4;
+$shadow: #999;
+$dark_grey: #1a1a1a;
+$l_grey: #ccc;
+$lighter_grey: #f0f0f0;
+$grey_devil: #666666;
+$grey_icon: #b7b7b7;
+$grey_line: #eee;
+$grey_bg: #f5f5f5;
+$modalbody: #545965;
+$modalfooter: #414653;
+$dark_button: #2f333d;
+$bottom_grey: #e3d9da;
+
+//SOCIAL COLORS
+$linkedin_color: #1883BB;
+$facebook_color: #425F9C;
+$twitter_color: #4B9ED1;
+$google_color: #dd422d;
+
+
+
+.glass-effect {
+  box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.3), 0px 2px 3px 0px rgba(0, 0, 0, 0.6);
+  background: $black_t;
+}
+
+@include font-face("Open Sans Light", font-files("../../fonts/opensans/light.ttf"));
+@include font-face("Open Sans Regular", font-files("../../fonts/opensans/regular.ttf"));
+@include font-face("Open Sans Semibold", font-files("../../fonts/opensans/semibold.ttf"));
+@include font-face("Open Sans Bold", font-files("../../fonts/opensans/bold.ttf"));
+@include font-face("Open Sans Extrabold", font-files("../../fonts/opensans/extrabold.ttf"));
+
+$primary_font_light: "Open Sans Light";
+$primary_font_regular: "Open Sans Regular";
+$primary_font_semibold: "Open Sans Semibold";
+$primary_font_bold: "Open Sans Bold";
+$primary_font_xbold: "Open Sans Extrabold";
+
+.light {
+  font-family: $primary_font_light !important;
+}
+
+.regular {
+  font-family: $primary_font_regular !important;
+}
+
+.semibold {
+  font-family: $primary_font_semibold !important;
+}
+
+.bold {
+  font-family: $primary_font_bold !important;
+}
+
+.xbold {
+  font-family: $primary_font_xbold !important;
+}
+
+.move-everything-down {
+  margin-top:10px;
+  width: 100%;
+  height: 100%;
+}
+.caps {
+  text-transform: capitalize;
+}
+.largeFont {
+  font-size: 20px !important;
+}
+.fix-div {
+  position: fixed;
+}
+.unselectable {
+  -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.rating {
+  display: inline-block;
+}
+.clear-fix {
+  clear: both;
+}
+
+.full {
+  width: 100%;
+  height: 100%;
+}
+
+.error {
+  border: 3px solid $red !important;
+}
+
+.move-button-l {
+  margin-left: 10px;
+}
+.make_bold {
+  font-family: $primary_font_bold;
+}
+.btn {
+  &.btn-full {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  &.btn-half {
+    width: 45%;
+    padding: 15px;
+  }
+}
+.btn-primary {
+  background: $blue !important;
+  color: $white;
+  border-color: darken($blue, 5%) !important;
+
+
+  &:hover {
+    background: darken($blue, 5%) !important;
+  }
+}
+.btn {
+  font-family: $primary_font_semibold;
+}
+.btn-secondary {
+  background: $green !important;
+  color: $white;
+  border-color: darken($green, 10%) !important;
+  &:hover {
+    background: darken($green, 5%) !important;
+    color: $white !important;
+  }
+}
+
+.btn-facebook {
+  background: $facebook_color !important;
+  color: $white;
+  border: none !important;
+  &:hover {
+    background: darken($facebook_color, 5%) !important;
+    color: $white !important;
+  }
+}
+.pad-bottom {
+  padding-bottom: 50px;
+}
+
+.btn-google-plus {
+  background: $google_color !important;
+  color: $white;
+  border: none !important;
+  &:hover {
+    background: darken($google_color, 5%) !important;
+    color: $white !important;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0px 0px 1px $shadow;
+  background: $white;
+}
+
+.pos-rel {
+  position: relative;
+}
+.cmn-toggle {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+.cmn-toggle + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+
+input.cmn-toggle-round-flat + label {
+  padding: 2px;
+  width: 120px;
+  height: 60px;
+  background-color: transparent;
+  border-radius: 60px;
+  transition: background 0.4s;
+}
+input.cmn-toggle-round-flat + label:before,
+input.cmn-toggle-round-flat + label:after {
+  display: block;
+  position: absolute;
+  content: "";
+}
+input.cmn-toggle-round-flat + label:before {
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  right: 2px;
+  background-color: transparent;
+  border: 2px solid $gold;
+  border-radius: 60px;
+  transition: background 0.4s;
+}
+input.cmn-toggle-round-flat + label:after {
+  top: 4px;
+  left: 4px;
+  bottom: 4px;
+  width: 52px;
+  background-color: $white;
+  border-radius: 52px;
+  transition: margin 0.4s, background 0.4s;
+}
+input.cmn-toggle-round-flat:checked + label {
+  background-color: transparent;
+  border-color: $gold;
+}
+input.cmn-toggle-round-flat:checked + label:after {
+  margin-left: 60px;
+  background-color: $white;
+}
+.switch {
+    position: relative;
+    top: 15px;
+    left: 25px;
+}
+
+.raise-img {
+      position: relative;
+    top: -90px;
+}
+.fa-rotate-45 {
+    -webkit-transform: rotate(45deg) !important;
+    -moz-transform: rotate(45deg) !important;
+    -ms-transform: rotate(45deg) !important;
+    -o-transform: rotate(45deg) !important;
+    transform: rotate(45deg) !important;
+}
+
+a.btn.btn-gold {
+    background: $gold;
+    padding: 15px 20px;
+    border-bottom: 2px solid darken($gold, 15%);
+    color: $title_grey !important;
+
+    &:hover {
+      background: darken($gold, 15%);
+      border-bottom: 2px solid darken($gold, 25%) !important;
+    }
+}
+
+p {
+    font-size: 16px;
+   font-family: $primary_font_regular !important;
+}
+.small-h1 {
+  font-size: 16px !important;
+}
+.small-p {
+  font-size: 14px !important;
+}
+.black-overlay {
+    width: 100%;
+    height: 100%;
+    background: $black;
+    opacity: 0.6;
+}
+.center-justified {
+      text-align: justify !important;
+    margin: 0 auto;
+    width: 70em !important;
+    margin-bottom: -25px !important;
+    margin-top: 50px !important;
+}

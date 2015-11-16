@@ -1,0 +1,1 @@
+define(["backbone","marionette"],function(e,t){return e.Marionette.AppRouter.extend({appRoutes:{"":"index",landing:"landing","about-us":"about",operations:"operations",services:"services","contact-us":"contact","how-it-works":"how",quote:"quote","services/:type":"product","services/:type/:subtype":"subproduct"}})});

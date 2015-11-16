@@ -1,0 +1,57 @@
+<div class="landing-view">
+	<div class="row top-banner {{subproduct.banner}}">
+		<h1>{{subproduct.name}}</h1>
+		<div class="black-overlay"></div>
+		<div class="arrow-down">
+			<span class="fa-stack fa-lg fa-3x">
+			  <i class="fa fa-angle-down fa-stack-1x"></i>
+			  <i class="fa fa-circle-o fa-stack-2x"></i>
+			</span>
+		</div>
+	</div>	
+
+	<div class="row services-holder pad-bottom">
+		<div class="container  line-container">
+			<div class="center-justified">{{{subproduct.des}}}</div>
+			<span class="line"><img src="../img/line.jpg"></span>
+			<h1>{{subproduct.title}}</h1>
+			<span class="line"><img src="../img/line.jpg"></span>
+			<div class="row services-chunks-holder">
+			{{#each subproduct.features}}
+				<div class="col-md-{{cols}} col-xs-{{xscols}} chunk  feature feature-{{align}}">
+					<i class="feature-icon fa fa-{{icon}}"></i>
+					<span>{{title}}</span>
+					<div class="feature-value">{{value}}</div>
+					<ul class="subfeatures">
+						{{#each subfeatures}}
+							<li class="subfeature"><i class="fa fa-{{icon}}"></i><div class="sub-value">{{value}}</div></li>
+						{{/each}}
+					</ul>
+				</div>
+			{{/each}}
+			</div>
+			
+		</div>
+
+		<div class="container  line-container">
+			<span class="line"><img src="../img/line.jpg"></span>
+			<h1>{{subproduct.gallery.title}}</h1>
+			<span class="line"><img src="../img/line.jpg"></span>
+			<div class="row services-chunks-holder">
+			<ul class="gallery">
+				{{#each subproduct.gallery.images}}
+					<li class="subfeature"><img src="{{path}}"></li>
+				{{/each}}
+			</ul>
+			</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="footer-view">
+	
+</div>
+	</div>
+</div>	

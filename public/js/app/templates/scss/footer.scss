@@ -1,0 +1,31 @@
+#main-footer-container {
+  margin: 0;
+}
+.footer-view {
+	background: $title_grey;
+	height: 215px;
+	border-bottom: 10px solid $gold;
+	border-top: 5px solid $gold;
+}
+
+ul.row.nest-footer-menu {
+    padding: 0 15%;
+    padding-bottom: 0;
+}
+ul.row.nest-footer-menu a {
+    color: $gold;
+}
+.footer-view .nest-logo {
+    top: inherit !important;
+    position: absolute;
+    right: 50px !important;
+    bottom: 35px;
+    left: inherit;
+}
+.footer-view h2 {
+    margin: 0;
+    color: $white;
+    padding: 30px 15%;
+    font-size: 20px;
+    font-family: $primary_font_xbold;
+}

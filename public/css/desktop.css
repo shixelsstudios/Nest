@@ -2289,7 +2289,8 @@ div#navNotLoggedIn-view {
 .landing-view {
   position: absolute;
   width: 100%;
-  top: 0; }
+  top: 0;
+  overflow-x: hidden; }
 
 img.logo-holder {
   width: 30%;

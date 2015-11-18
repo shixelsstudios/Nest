@@ -285,6 +285,10 @@ p {
   margin-bottom: -25px !important;
   margin-top: 50px !important; }
 
+.Pull-up {
+  position: relative;
+  top: -82px; }
+
 /*!
  *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -2080,7 +2084,7 @@ p {
 
 .footer-view {
   background: #2b2a29;
-  height: 215px;
+  height: auto;
   border-bottom: 10px solid #d2a541;
   border-top: 5px solid #d2a541; }
 
@@ -2106,7 +2110,6 @@ ul.row.nest-footer-menu a {
   font-family: "Open Sans Extrabold", Helvetica, sans-serif; }
 
 ul.bottom-footer {
-  background: white;
   text-align: center; }
   ul.bottom-footer li {
     display: inline-block;
@@ -2126,8 +2129,10 @@ ul.bottom-footer {
 
 ul.bottom-footer h1 {
   margin: 0;
-  font-size: 14px;
-  margin-top: 15px; }
+  color: #fff;
+  padding: 30px 15%;
+  font-size: 20px;
+  font-family: "Open Sans Extrabold", Helvetica, sans-serif; }
 
 .modal-view {
   width: 100%;
@@ -2209,7 +2214,7 @@ ul.bottom-footer h1 {
   height: 90px;
   width: 100%;
   margin: 0;
-  background: #2b2a29;
+  background: white;
   text-align: center;
   position: fixed;
   opacity: 0.9;
@@ -2281,39 +2286,32 @@ div#navNotLoggedIn-view {
 .desk-menu {
   right: -80%; }
 
-.top-banner {
-  background: url("http://demos.shixels.com/nest_av/img/nbg.jpg");
-  height: 700px;
-  margin: 0 !important;
+.top-banner.bg-op {
+  background: url("http://demos.shixels.com/nest_av/img/N990EA Exterior 3 Copy.jpg") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  height: 450px !important; }
+.top-banner.bg-peep {
+  background: url("http://demos.shixels.com/nest_av/img/bgpeep.jpg") !important;
+  background-size: cover !important;
+  background-position: top !important;
+  height: 450px !important; }
+.top-banner.bg-serv {
+  background: url("http://demos.shixels.com/nest_av/img/Helicopter pictures/044A2919.JPG") !important;
+  background-size: cover !important;
+  background-position: bottom !important;
+  height: 450px !important; }
+.top-banner.bg-aw139 {
+  background: url("http://demos.shixels.com/nest_av/img/aw139/aw139-7.jpg") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  height: 450px !important; }
+.top-banner .arrow-down {
+  position: absolute;
+  bottom: 35px;
   width: 100%;
-  position: relative;
-  background-position: bottom; }
-  .top-banner.bg-op {
-    background: url("http://demos.shixels.com/nest_av/img/N990EA Exterior 3 Copy.jpg") !important;
-    background-size: cover !important;
-    background-position: center !important;
-    height: 450px !important; }
-  .top-banner.bg-peep {
-    background: url("http://demos.shixels.com/nest_av/img/bgpeep.jpg") !important;
-    background-size: cover !important;
-    background-position: top !important;
-    height: 450px !important; }
-  .top-banner.bg-serv {
-    background: url("http://demos.shixels.com/nest_av/img/Helicopter pictures/044A2919.JPG") !important;
-    background-size: cover !important;
-    background-position: bottom !important;
-    height: 450px !important; }
-  .top-banner.bg-aw139 {
-    background: url("http://demos.shixels.com/nest_av/img/aw139/aw139-7.jpg") !important;
-    background-size: cover !important;
-    background-position: center !important;
-    height: 450px !important; }
-  .top-banner .arrow-down {
-    position: absolute;
-    bottom: 35px;
-    width: 100%;
-    text-align: center;
-    color: #d2a541; }
+  text-align: center;
+  color: #d2a541; }
 
 .landing-view {
   position: absolute;
@@ -2542,6 +2540,15 @@ label.amountlabel {
   font-size: 2.5em;
   width: 100%;
   text-align: center; }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+  height: 450px !important;
+  margin: auto; }
+
+.carousel-indicators {
+  visibility: hidden; }
 
 .row.about-us .thumbnail img {
   height: 239px;

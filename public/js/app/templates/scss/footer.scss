@@ -3,7 +3,7 @@
 }
 .footer-view {
 	background: $title_grey;
-	height: 215px;
+	height: auto;
 	border-bottom: 10px solid $gold;
 	border-top: 5px solid $gold;
 }
@@ -30,7 +30,7 @@ ul.row.nest-footer-menu a {
     font-family: $primary_font_xbold;
 }
 ul.bottom-footer {
-    background: white;
+    
     text-align: center;
      li {
     display: inline-block;
@@ -54,6 +54,8 @@ img {
 }
 ul.bottom-footer h1 {
     margin: 0;
-    font-size: 14px;
-    margin-top: 15px;
+    color: $white;
+    padding: 30px 15%;
+    font-size: 20px;
+    font-family: $primary_font_xbold;
 }

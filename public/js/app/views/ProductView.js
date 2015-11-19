@@ -80,7 +80,7 @@ define(['jquery', 'hbs!templates/product', 'backbone','models/Model', 'marionett
                             des: 'We have two (2) units of the AW139 utility configured helicopters to facilitate our operations in the helicopter charter service.'
                         },
                         {
-                            img: 'sikorsky',
+                            img: 'sikor',
                             cols: '6',
                             parent_slug: 'helicopter-charter',
                             slug: 'sikorsky-s76',
@@ -103,7 +103,7 @@ define(['jquery', 'hbs!templates/product', 'backbone','models/Model', 'marionett
                 if (this.product.slug === 'airtcraft-hangarage') {
                     this.product.h1 = "Aircraft Hangarage";
                     this.product.banner = 'bg-op';
-                    this.product.des = '<p class="small-p">Our FBO are open to private jet/helicopter owners and operators to park their aircraft.</p>';
+                    this.product.des = '<p class="small-p">Our hangarage services include but not limited to aircraft storage and ground support. We provide dedicated aircraft cleaning service, full external wash and polish, internal aircraft cleaning of carpets and upholstery, etc. Our team of skilled professionals have garnered many years of experience in ground handling and associated services.</p>';
                     this.product.title = 'Inside our Hangers';
                     this.product.subproducts = null;
                     this.product.partners = null;

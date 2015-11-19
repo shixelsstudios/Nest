@@ -115,7 +115,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                     this.subproduct.gallery.title = 'Inside the Gulfstream G-IV SP';
 
                     this.subproduct.gallery.count = 69;
-                    this.subproduct.gallery.path = '../img/g450/g450-';
+                    this.subproduct.gallery.path = 'http://demos.shixels.com/nest_av/img/g450/g450-';
                     this.subproduct.gallery.images = [];
 
                     for (var i = 1; i <= this.subproduct.gallery.count; i++) {
@@ -203,7 +203,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                     this.subproduct.gallery.title = 'Inside the G200';
 
                     this.subproduct.gallery.count = 1;
-                    this.subproduct.gallery.path = '../img/g200/g200-';
+                    this.subproduct.gallery.path = 'http://demos.shixels.com/nest_av/img/g200/g200-';
                     this.subproduct.gallery.images = [];
 
                     for (var j = 1; j <= this.subproduct.gallery.count; j++) {
@@ -219,7 +219,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                    
                     this.subproduct.banner = 'sikorsky';
 
-                    this.subproduct.name = 'The Sikorsky S-76 ';
+                    this.subproduct.name = 'The Sikorsky S76 ';
 
                     this.subproduct.subheading = 'Operates out of Port Harcourt';
 
@@ -287,7 +287,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                     this.subproduct.gallery.title = 'Inside the Sikorsky S76';
 
                     this.subproduct.gallery.count = 7;
-                    this.subproduct.gallery.path = '../img/sikorsky/sikorsky-';
+                    this.subproduct.gallery.path = 'http://demos.shixels.com/nest_av/img/sikorsky/sikorsky-';
                     this.subproduct.gallery.images = [];
 
                     for (var k = 1; k <= this.subproduct.gallery.count; k++) {
@@ -371,7 +371,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                     this.subproduct.gallery.title = 'Inside the AgustaWestland AW139';
 
                     this.subproduct.gallery.count = 11;
-                    this.subproduct.gallery.path = '../img/aw139/aw139-';
+                    this.subproduct.gallery.path = 'http://demos.shixels.com/nest_av/img/aw139/aw139-';
                     this.subproduct.gallery.images = [];
 
                     for (var l = 1; l <= this.subproduct.gallery.count; l++) {

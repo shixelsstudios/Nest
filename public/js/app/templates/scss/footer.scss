@@ -3,7 +3,7 @@
 }
 .footer-view {
 	background: $title_grey;
-	height: auto;
+	height: auto; // Changed Height to auto from 215px
 	border-bottom: 10px solid $gold;
 	border-top: 5px solid $gold;
 }

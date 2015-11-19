@@ -19,7 +19,7 @@
 
         }
         &.bg-serv {
-            background: url('http://demos.shixels.com/nest_av/img/Helicopter pictures/044A2919.JPG') !important;
+            background: url("http://demos.shixels.com/nest_av/img/Helicopter pictures/044A2919.JPG") !important;
                 background-size: cover !important;
                 background-position: bottom !important;
                 height: 450px !important;
@@ -309,4 +309,15 @@ label.amountlabel {
 
   .carousel-indicators {
     visibility: hidden;
+  }
+
+  .carousel-inner{
+    .item{
+        height: 450px;
+    }
+    .item1 {
+        background-image: url("http://demos.shixels.com/nest_av/img/des/des-4.jpg");
+        background-size: cover;
+        background-position: center;
+    }
   }

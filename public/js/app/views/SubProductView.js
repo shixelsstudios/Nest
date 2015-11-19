@@ -119,11 +119,14 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                     this.subproduct.gallery.images = [];
 
                     for (var i = 1; i <= this.subproduct.gallery.count; i++) {
-                        this.subproduct.gallery.images.push(
+                        if ( i !== 59) {
+                           this.subproduct.gallery.images.push(
                             {
                                 path: this.subproduct.gallery.path + i + '.jpg'
                             }
-                        );
+                        ); 
+                        }
+                        
                     }
                 }
             
@@ -462,19 +465,19 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                         }
                     ];
 
-                    this.subproduct.gallery.title = 'Inside the Bombardier Challenger 300';
+                    this.subproduct.gallery.title = null;
 
-                    this.subproduct.gallery.count = 3;
-                    this.subproduct.gallery.path = '../img/bom/bom-';
-                    this.subproduct.gallery.images = [];
+                    // this.subproduct.gallery.count = 3;
+                    // this.subproduct.gallery.path = '../img/bom/bom-';
+                    // this.subproduct.gallery.images = [];
 
-                    for (var o = 1; o <= this.subproduct.gallery.count; o++) {
-                        this.subproduct.gallery.images.push(
-                            {
-                                path: this.subproduct.gallery.path + o + '.jpg'
-                            }
-                        );
-                    }
+                    // for (var o = 1; o <= this.subproduct.gallery.count; o++) {
+                    //     this.subproduct.gallery.images.push(
+                    //         {
+                    //             path: this.subproduct.gallery.path + o + '.jpg'
+                    //         }
+                    //     );
+                    // }
                 }
 
                 if (this.subproduct.slug === 'dessault-falcon-900dx') {
@@ -555,19 +558,19 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                         }
                     ];
 
-                    this.subproduct.gallery.title = 'Inside the Dassault Falcon 900DX';
+                    this.subproduct.gallery.title = null;
 
-                    this.subproduct.gallery.count = 4;
-                    this.subproduct.gallery.path = '../img/des/des-';
-                    this.subproduct.gallery.images = [];
+                    // this.subproduct.gallery.count = 4;
+                    // this.subproduct.gallery.path = '../img/des/des-';
+                    // this.subproduct.gallery.images = [];
 
-                    for (var n = 1; n <= this.subproduct.gallery.count; n++) {
-                        this.subproduct.gallery.images.push(
-                            {
-                                path: this.subproduct.gallery.path + n + '.jpg'
-                            }
-                        );
-                    }
+                    // for (var n = 1; n <= this.subproduct.gallery.count; n++) {
+                    //     this.subproduct.gallery.images.push(
+                    //         {
+                    //             path: this.subproduct.gallery.path + n + '.jpg'
+                    //         }
+                    //     );
+                    // }
                 }
             
                  if (this.subproduct.slug === 'phenom-300') {
@@ -614,19 +617,19 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                         }
                     ];
 
-                    this.subproduct.gallery.title = 'Inside the Phenom 300';
+                    this.subproduct.gallery.title = null;
 
-                    this.subproduct.gallery.count = 4;
-                    this.subproduct.gallery.path = '../img/phen/phen-';
-                    this.subproduct.gallery.images = [];
+                    // this.subproduct.gallery.count = 4;
+                    // this.subproduct.gallery.path = '../img/phen/phen-';
+                    // this.subproduct.gallery.images = [];
 
-                    for (var m = 1; m <= this.subproduct.gallery.count; m++) {
-                        this.subproduct.gallery.images.push(
-                            {
-                                path: this.subproduct.gallery.path + m + '.jpg'
-                            }
-                        );
-                    }
+                    // for (var m = 1; m <= this.subproduct.gallery.count; m++) {
+                    //     this.subproduct.gallery.images.push(
+                    //         {
+                    //             path: this.subproduct.gallery.path + m + '.jpg'
+                    //         }
+                    //     );
+                    // }
                 }
             
             

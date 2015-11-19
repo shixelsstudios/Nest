@@ -80,8 +80,8 @@ define(['jquery', 'hbs!templates/product', 'backbone','models/Model', 'marionett
                             des: 'We have two (2) units of the AW139 utility configured helicopters to facilitate our operations in the helicopter charter service.'
                         },
                         {
-                            img: 'jet',
-                            cols: 'sikorsky',
+                            img: 'sikorsky',
+                            cols: '6',
                             parent_slug: 'helicopter-charter',
                             slug: 'sikorsky-s76',
                             title: 'Sikorsky S76 C+',
@@ -117,7 +117,7 @@ define(['jquery', 'hbs!templates/product', 'backbone','models/Model', 'marionett
                     for (var o = 1; o <= this.product.gallery.count; o++) {
                         this.product.gallery.images.push(
                             {
-                                path: this.product.gallery.path + o + '.jpg'
+                                path: this.product.gallery.path + o + '.JPG'
                             }
                         );
                     }

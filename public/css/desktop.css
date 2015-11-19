@@ -2599,7 +2599,7 @@ a.thumbnail img {
   .bg-img.phen300 {
     background-image: url("http://demos.shixels.com/nest_av/img/phen/phen-1.jpg"); }
   .bg-img.sikorsky {
-    background-image: url("http://demos.shixels.com/nest_av/img/sikorsky/sikorsky-3.jpg"); }
+    background-image: url("http://demos.shixels.com/nest_av/img/sikorsky/sikorsky-3.JPG"); }
 
 .top-banner {
   margin: 0 !important;
@@ -2635,7 +2635,7 @@ a.thumbnail img {
   .top-banner.top {
     background-position: 0 35% !important; }
   .top-banner.sikorsky {
-    background-image: url("http://demos.shixels.com/nest_av/img/sikorsky/sikorsky-3.jpg");
+    background-image: url("http://demos.shixels.com/nest_av/img/sikorsky/sikorsky-3.JPG");
     height: 450px !important; }
 
 .feature {

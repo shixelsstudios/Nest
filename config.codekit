@@ -603,24 +603,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/public\/img\/aw139\/aw139-6.jpg": {
+	"\/public\/img\/aw139\/aw139-6.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1.70746e+06,
-		"inputAbbreviatedPath": "\/public\/img\/aw139\/aw139-6.jpg",
-		"outputAbbreviatedPath": "\/public\/img\/aw139\/aw139-6.jpg",
+		"inputAbbreviatedPath": "\/public\/img\/aw139\/aw139-6.JPG",
+		"outputAbbreviatedPath": "\/public\/img\/aw139\/aw139-6.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/public\/img\/aw139\/aw139-7.jpg": {
+	"\/public\/img\/aw139\/aw139-7.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1.60008e+06,
-		"inputAbbreviatedPath": "\/public\/img\/aw139\/aw139-7.jpg",
-		"outputAbbreviatedPath": "\/public\/img\/aw139\/aw139-7.jpg",
+		"inputAbbreviatedPath": "\/public\/img\/aw139\/aw139-7.JPG",
+		"outputAbbreviatedPath": "\/public\/img\/aw139\/aw139-7.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3727,35 +3727,35 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/public\/img\/sikorsky\/sikorsky-1.jpg": {
+	"\/public\/img\/sikorsky\/sikorsky-1.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2.76492e+06,
-		"inputAbbreviatedPath": "\/public\/img\/sikorsky\/sikorsky-1.jpg",
-		"outputAbbreviatedPath": "\/public\/img\/sikorsky\/sikorsky-1.jpg",
+		"inputAbbreviatedPath": "\/public\/img\/sikorsky\/sikorsky-1.JPG",
+		"outputAbbreviatedPath": "\/public\/img\/sikorsky\/sikorsky-1.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/public\/img\/sikorsky\/sikorsky-2.jpg": {
+	"\/public\/img\/sikorsky\/sikorsky-2.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2.41421e+06,
-		"inputAbbreviatedPath": "\/public\/img\/sikorsky\/sikorsky-2.jpg",
-		"outputAbbreviatedPath": "\/public\/img\/sikorsky\/sikorsky-2.jpg",
+		"inputAbbreviatedPath": "\/public\/img\/sikorsky\/sikorsky-2.JPG",
+		"outputAbbreviatedPath": "\/public\/img\/sikorsky\/sikorsky-2.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/public\/img\/sikorsky\/sikorsky-3.jpg": {
+	"\/public\/img\/sikorsky\/sikorsky-3.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1.90315e+06,
-		"inputAbbreviatedPath": "\/public\/img\/sikorsky\/sikorsky-3.jpg",
-		"outputAbbreviatedPath": "\/public\/img\/sikorsky\/sikorsky-3.jpg",
+		"inputAbbreviatedPath": "\/public\/img\/sikorsky\/sikorsky-3.JPG",
+		"outputAbbreviatedPath": "\/public\/img\/sikorsky\/sikorsky-3.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4088,6 +4088,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/public\/js\/app\/init\/DesktopInit.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/js\/app\/init\/DesktopInit.min.js",
+		"outputAbbreviatedPath": "\/public\/js\/app\/init\/min\/DesktopInit.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/public\/js\/app\/init\/min\/DesktopInit.min-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -4116,6 +4127,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/js\/app\/init\/MobileInit.js",
 		"outputAbbreviatedPath": "\/public\/js\/app\/init\/min\/MobileInit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/js\/app\/init\/MobileInit.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/js\/app\/init\/MobileInit.min.js",
+		"outputAbbreviatedPath": "\/public\/js\/app\/init\/min\/MobileInit.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

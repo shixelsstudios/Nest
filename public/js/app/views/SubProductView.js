@@ -293,7 +293,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                     for (var k = 1; k <= this.subproduct.gallery.count; k++) {
                         this.subproduct.gallery.images.push(
                             {
-                                path: this.subproduct.gallery.path + k + '.jpg'
+                                path: this.subproduct.gallery.path + k + '.JPG'
                             }
                         );
                     }
@@ -377,7 +377,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                     for (var l = 1; l <= this.subproduct.gallery.count; l++) {
                         this.subproduct.gallery.images.push(
                             {
-                                path: this.subproduct.gallery.path + l + '.jpg'
+                                path: this.subproduct.gallery.path + l + '.JPG'
                             }
                         );
                     }

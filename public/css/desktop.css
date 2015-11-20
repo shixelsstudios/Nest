@@ -2306,7 +2306,7 @@ a.nestlogoholder {
   background-position: top !important;
   height: 450px !important; }
 .top-banner.bg-serv {
-  background: url("http://demos.shixels.com/nest_av/img/Helicopter pictures/044A2919.JPG") !important;
+  background: url("http://demos.shixels.com/nest_av/img/Helicopter pictures/044A2919.jpg") !important;
   background-size: cover !important;
   background-position: bottom !important;
   height: 450px !important; }
@@ -2566,7 +2566,7 @@ label.amountlabel {
   background-size: cover;
   background-position: center; }
 .carousel-inner .item2 {
-  background-image: url("http://demos.shixels.com/nest_av/img/Cockpit AW139_2.JPG");
+  background-image: url("http://demos.shixels.com/nest_av/img/Cockpit AW139_2.jpg");
   background-size: cover;
   background-position: center; }
 .carousel-inner .item3 {
@@ -2574,7 +2574,7 @@ label.amountlabel {
   background-size: cover;
   background-position: center; }
 .carousel-inner .item4 {
-  background-image: url("http://demos.shixels.com/nest_av/img/New folder (2)/044A3176.JPG");
+  background-image: url("http://demos.shixels.com/nest_av/img/New folder (2)/044A3176.jpg");
   background-size: cover;
   background-position: center; }
 .carousel-inner .item5 {
@@ -2586,11 +2586,11 @@ label.amountlabel {
   background-size: cover;
   background-position: center; }
 .carousel-inner .item7 {
-  background-image: url("http://demos.shixels.com/nest_av/img/Interior Sikorsky1.JPG");
+  background-image: url("http://demos.shixels.com/nest_av/img/Interior Sikorsky1.jpg");
   background-size: cover;
   background-position: center; }
 .carousel-inner .item8 {
-  background-image: url("http://demos.shixels.com/nest_av/img/New folder (2)/044A3240.JPG");
+  background-image: url("http://demos.shixels.com/nest_av/img/New folder (2)/044A3240.jpg");
   background-size: cover;
   background-position: center; }
 .carousel-inner .item9 {
@@ -2602,27 +2602,35 @@ label.amountlabel {
   background-size: cover;
   background-position: center; }
 .carousel-inner .item11 {
-  background-image: url("http://demos.shixels.com/nest_av/img/Helicopter pictures/044A2899.JPG");
+  background-image: url("http://demos.shixels.com/nest_av/img/Helicopter pictures/044A2899.jpg");
   background-size: cover;
   background-position: center; }
 .carousel-inner .item12 {
-  background-image: url("http://demos.shixels.com/nest_av/img/Helicopter pictures/044A2895.JPG");
+  background-image: url("http://demos.shixels.com/nest_av/img/Helicopter pictures/044A2895.jpg");
   background-size: cover;
   background-position: center; }
 .carousel-inner .item13 {
-  background-image: url("http://demos.shixels.com/nest_av/img/Helicopter pictures/044A2963.JPG");
+  background-image: url("http://demos.shixels.com/nest_av/img/Helicopter pictures/044A2963.jpg");
   background-size: cover;
   background-position: center; }
 .carousel-inner .item14 {
-  background-image: url("http://demos.shixels.com/nest_av/img/Helicopter pictures/044A3019.JPG");
+  background-image: url("http://demos.shixels.com/nest_av/img/Helicopter pictures/044A3019.jpg");
   background-size: cover;
-  background-position: center; }
+  background-position: top; }
 .carousel-inner .item15 {
-  background-image: url("http://demos.shixels.com/nest_av/img/Helicopter pictures/044A3046.JPG");
+  background-image: url("http://demos.shixels.com/nest_av/img/Helicopter pictures/044A3046.jpg");
   background-size: cover;
   background-position: center; }
 .carousel-inner .item16 {
-  background-image: url("http://demos.shixels.com/nest_av/img/g450/g450-25.JPG");
+  background-image: url("http://demos.shixels.com/nest_av/img/g450/g450-25.jpg");
+  background-size: cover;
+  background-position: center; }
+.carousel-inner .item17 {
+  background-image: url("http://demos.shixels.com/nest_av/img/g450/g450-18.jpg");
+  background-size: cover;
+  background-position: center; }
+.carousel-inner .item18 {
+  background-image: url("http://demos.shixels.com/nest_av/img/g450/g450-59.jpg");
   background-size: cover;
   background-position: center; }
 

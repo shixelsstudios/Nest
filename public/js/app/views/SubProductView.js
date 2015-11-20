@@ -112,22 +112,18 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                         }
                     ];
 
-                    this.subproduct.gallery.title = 'Inside the Gulfstream G-IV SP';
+                    this.subproduct.gallery.title = 'Inside the Gulfstream GIV SP';
 
                     this.subproduct.gallery.count = 69;
                     this.subproduct.gallery.path = 'http://demos.shixels.com/nest_av/img/g450/g450-';
                     this.subproduct.gallery.images = [];
 
                     for (var i = 1; i <= this.subproduct.gallery.count; i++) {
-                        if ( i !== 59) {
-                           this.subproduct.gallery.images.push(
-                            {
-                                path: this.subproduct.gallery.path + i + '.jpg'
-                            }
-                        ); 
-                        }
+                           this.subproduct.gallery.images.push({path: this.subproduct.gallery.path + i + '.jpg'});
                         
-                    }
+                     }
+                        
+                    
                 }
             
             
@@ -202,7 +198,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
 
                     this.subproduct.gallery.title = 'Inside the G200';
 
-                    this.subproduct.gallery.count = 1;
+                    this.subproduct.gallery.count = 10;
                     this.subproduct.gallery.path = 'http://demos.shixels.com/nest_av/img/g200/g200-';
                     this.subproduct.gallery.images = [];
 

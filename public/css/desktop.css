@@ -2770,6 +2770,15 @@ ol.breadcrumb {
 .row.about-us .col-md-3 {
   margin-top: 15px; }
 
+.subfeature {
+  cursor: pointer; }
+
+.imageModal {
+  margin-top: 5%; }
+
+.modal-body img {
+  width: 100%; }
+
 #Contact_content .contact-box {
   padding: 20px;
   background-color: #303030;

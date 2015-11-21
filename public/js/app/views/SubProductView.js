@@ -8,7 +8,8 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
             events: {
                 'click .more-info': 'MoreInfo',
                 'mouseover .subfeature': 'ShowSubFeat',
-                'mouseout .subfeature': 'HideSubFeat'
+                'mouseout .subfeature': 'HideSubFeat',
+                'click .subfeature': 'showFullImage'
             },
             initialize: function(options) {
 
@@ -653,6 +654,16 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
             },
             HideSubFeat: function(e) {
                 $(e.currentTarget).find('.sub-value').css('display', 'none');
+            },
+            showFullImage: function(e) {
+                e.preventDefault();
+
+                var galImg = new Image();
+                galImg.src = $(e.currentTarget).find('img')[0].src;
+                console.log('image clicked: ',$(e.currentTarget), $(e.currentTarget).find('img'));
+                $('.imageModal .modal-title').html(this.subproduct.name);
+                $('.imageModal .modal-body').html(galImg);
+                $('.imageModal').modal();
             }
         });
     });

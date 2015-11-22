@@ -117,7 +117,7 @@ define(['jquery', 'hbs!templates/product', 'backbone','models/Model', 'marionett
                     for (var o = 1; o <= this.product.gallery.count; o++) {
                         this.product.gallery.images.push(
                             {
-                                path: this.product.gallery.path + o + '.JPG'
+                                path: this.product.gallery.path + o + '.jpg'
                             }
                         );
                     }

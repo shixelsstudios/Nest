@@ -337,3 +337,34 @@ div#slider-range-max {
         width: 80%;
     }
 }
+
+// For Nav responsiveness MDPIs and HiDPI
+@media only screen and (max-width: 1280px) {
+  a.nestlogoholder {
+    width: 145px;
+}
+
+img.nest-logo {
+    width: 100px;
+    float: left;
+    position: relative;
+    left: 5px;
+
+    top: 25px;
+}
+}
+
+@media only screen and (max-width: 1440px) {
+  a.nestlogoholder {
+    width: 200px;
+}
+
+img.nest-logo {
+    width: 150px;
+    float: left;
+    position: relative;
+    left: 5px;
+
+    top: 25px;
+}
+}

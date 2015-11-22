@@ -2657,7 +2657,7 @@ a.thumbnail img {
     background-image: url("http://demos.shixels.com/nest_av/img/bg-transport.jpg");
     background-position: top !important; }
   .bg-img.hangarage {
-    background-image: url("http://demos.shixels.com/nest_av/img/hanger/hanger-6.JPG"); }
+    background-image: url("http://demos.shixels.com/nest_av/img/hanger/hanger-6.jpg"); }
   .bg-img.top {
     background-position: 0 35% !important; }
   .bg-img.bom300 {
@@ -2698,7 +2698,7 @@ a.thumbnail img {
     height: 450px !important;
     background-position: top !important; }
   .top-banner.hangarage {
-    background-image: url("http://demos.shixels.com/nest_av/img/hanger/hanger-6.JPG");
+    background-image: url("http://demos.shixels.com/nest_av/img/hanger/hanger-6.jpg");
     height: 450px !important; }
   .top-banner.top {
     background-position: 0 35% !important; }
@@ -3170,6 +3170,26 @@ ol.breadcrumb {
 
   .bullets ul {
     width: 80%; } }
+@media only screen and (max-width: 1280px) {
+  a.nestlogoholder {
+    width: 145px; }
+
+  img.nest-logo {
+    width: 100px;
+    float: left;
+    position: relative;
+    left: 5px;
+    top: 25px; } }
+@media only screen and (max-width: 1440px) {
+  a.nestlogoholder {
+    width: 200px; }
+
+  img.nest-logo {
+    width: 150px;
+    float: left;
+    position: relative;
+    left: 5px;
+    top: 25px; } }
 /*!
  * Bootstrap v3.3.1 (http://getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.

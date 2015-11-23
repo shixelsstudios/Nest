@@ -293,6 +293,9 @@ p {
   position: relative;
   top: -450px; }
 
+.about-us {
+  text-align: justify; }
+
 /*!
  *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -3170,7 +3173,8 @@ ol.breadcrumb {
     height: 400px !important; }
 
   .row.about-us {
-    padding: 0 10%; }
+    padding: 0 10%;
+    text-align: justify; }
 
   .bullets ul {
     width: 80%; } }

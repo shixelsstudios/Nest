@@ -2924,6 +2924,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/logo-10.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66566,
+		"inputAbbreviatedPath": "\/public\/img\/logo-10.png",
+		"outputAbbreviatedPath": "\/public\/img\/logo-10.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/logo-11.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 304411,
+		"inputAbbreviatedPath": "\/public\/img\/logo-11.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/logo-11.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/logo-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2997,6 +3019,17 @@
 		"initialSize": 2722,
 		"inputAbbreviatedPath": "\/public\/img\/logo-8.jpg",
 		"outputAbbreviatedPath": "\/public\/img\/logo-8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/logo-9.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.57205e+06,
+		"inputAbbreviatedPath": "\/public\/img\/logo-9.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/logo-9.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

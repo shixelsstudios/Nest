@@ -5,7 +5,7 @@ define(['jquery', 'hbs!templates/operations', 'backbone','models/Model', 'marion
             template:template,
             model: null,
             events: {
-                'click .subfeature': 'showFullImage'
+                'click .thumbnail': 'showFullImage'
             },
             initialize: function(options) {
             },
@@ -14,13 +14,12 @@ define(['jquery', 'hbs!templates/operations', 'backbone','models/Model', 'marion
             },
             showFullImage: function(e) {
                 e.preventDefault();
-
+                var currentImg = $('.mainimg').find('img')[0].src;
                 var galImg = new Image();
                 galImg.src = $(e.currentTarget).find('img')[0].src;
-                console.log('image clicked: ',$(e.currentTarget), $(e.currentTarget).find('img'));
-                $('.imageModal .modal-title').html(this.subproduct.name);
-                $('.imageModal .modal-body').html(galImg);
-                $('.imageModal').modal();
+               $('.mainimg').html(galImg);
+               $(e.currentTarget).html('<img src="' + currentImg + '">');
+                
             }
         });
     });

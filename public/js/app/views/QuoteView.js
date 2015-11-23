@@ -41,7 +41,7 @@ define(['jquery','kalendar', 'hbs!templates/quote', 'backbone','models/Model', '
                     $( "#slider-range-max" ).slider({
                           range: "max",
                           min: 1,
-                          max: 10,
+                          max: 20,
                           value: 2,
                           slide: function( event, ui ) {
                             $( "#amount" ).val( ui.value );

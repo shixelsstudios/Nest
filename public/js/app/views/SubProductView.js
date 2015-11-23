@@ -134,7 +134,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
 
                     this.subproduct.name = 'The Gulfstream G200';
 
-                    this.subproduct.des = '<p>The G-200 offers the range and comfort of a large jet, but is a super mid-size jet. This jet is a 2 crew aircraft with a length of 18.97m (62ft 3 in), a cabin width of 2.18m (7ft 2in), and a cabin height of 1.91m (6ft 3in).</p>';
+                    this.subproduct.des = '<p>The G200 offers the range and comfort of a large jet, but is a super mid-size jet. This jet is a 2 crew aircraft with a length of 18.97m (62ft 3 in), a cabin width of 2.18m (7ft 2in), and a cabin height of 1.91m (6ft 3in).</p>';
                     
                     this.subproduct.title = 'Aircraft Details';
                     
@@ -193,7 +193,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                             cols: '3',
                             align: 'center',
                             title: 'Seating Capacity',
-                            value: '8 Passengers'
+                            value: '11 Passengers'
                         }
                     ];
 

@@ -289,6 +289,10 @@ p {
   position: relative;
   top: -82px; }
 
+.Pull-up-2 {
+  position: relative;
+  top: -450px; }
+
 /*!
  *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -2562,7 +2566,7 @@ label.amountlabel {
 .carousel-inner .item {
   height: 450px; }
 .carousel-inner .item1 {
-  background-image: url("http://demos.shixels.com/nest_av/img/g450/g450-58.jpg");
+  background-image: url("http://demos.shixels.com/nest_av/img/sikorsky/sikorsky-1.jpg");
   background-size: cover;
   background-position: center; }
 .carousel-inner .item2 {

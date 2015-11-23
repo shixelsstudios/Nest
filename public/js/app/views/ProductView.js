@@ -15,6 +15,7 @@ define(['jquery', 'hbs!templates/product', 'backbone','models/Model', 'marionett
                 if (this.product.slug === 'executive-jet-charter') {
                     this.product.h1 = "Executive Jet Charter";
                     this.product.banner = 'bg-op';
+                    this.product.isJet = true;
                     this.product.title = 'Our Fleet';
                     this.product.subtitle = 'Information on Partner Jets';
                     this.product.des = '<p class="small-p">We provide charter services to clients on our Gulfstream G200 and GIV-SP in an exceptional combination of safety, comfort and style. Other aircraft can also be provided at clients’ specific request.</p>';
@@ -69,6 +70,7 @@ define(['jquery', 'hbs!templates/product', 'backbone','models/Model', 'marionett
                     this.product.h1 = "Helicopter Charter";
                     this.product.banner = 'helicopter';
                     this.product.title = 'Our Fleet';
+                    this.product.isHel = true;
                     this.product.des = '<p class="small-p">We offer safe and comfortable charter services on our helicopters, with experienced and professional pilots to get you to any destination within Nigeria. </p>';
                     this.product.subproducts = [
                         {
@@ -97,6 +99,8 @@ define(['jquery', 'hbs!templates/product', 'backbone','models/Model', 'marionett
                     this.product.des = '<p class="small-p">Upon request, we provide air-conditioned chauffeur-driven vehicles to convey passengers on our charter flights to the venue of their meetings/parties/events, etc. in their city of arrival.</p>';
                     this.product.subproducts = null;
                     this.product.title = '';
+                    this.product.isTrans = true;
+
                     this.product.partners = null;
                 }
 
@@ -107,6 +111,8 @@ define(['jquery', 'hbs!templates/product', 'backbone','models/Model', 'marionett
                     this.product.title = 'Inside our Hangers';
                     this.product.subproducts = null;
                     this.product.partners = null;
+                    this.product.isHang = true;
+
 
                     this.product.gallery.title = 'Inside our Hangers';
 

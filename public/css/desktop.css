@@ -2096,7 +2096,7 @@ p {
   border-top: 5px solid #d2a541; }
 
 ul.row.nest-footer-menu {
-  padding: 0 15%;
+  padding: 0 5%;
   padding-bottom: 0; }
 
 ul.row.nest-footer-menu a {
@@ -2112,7 +2112,7 @@ ul.row.nest-footer-menu a {
 .footer-view h2 {
   margin: 0;
   color: #fff;
-  padding: 30px 15%;
+  padding: 30px 5%;
   font-size: 20px;
   font-family: "Open Sans Extrabold", Helvetica, sans-serif; }
 
@@ -2122,7 +2122,7 @@ ul.bottom-footer {
     display: inline-block;
     width: 100px;
     overflow: hidden;
-    height: 50px;
+    height: inherit;
     margin: 0 40px;
     line-height: 55px;
     cursor: pointer;

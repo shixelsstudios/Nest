@@ -2770,6 +2770,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/holder.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46180,
+		"inputAbbreviatedPath": "\/public\/img\/holder.png",
+		"outputAbbreviatedPath": "\/public\/img\/holder.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/icons-18-black.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2939,7 +2950,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 66566,
+		"initialSize": 46180,
 		"inputAbbreviatedPath": "\/public\/img\/logo-10.png",
 		"outputAbbreviatedPath": "\/public\/img\/logo-10.png",
 		"outputPathIsOutsideProject": 0,
@@ -4308,6 +4319,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/public\/js\/app\/init\/DesktopInit.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/js\/app\/init\/DesktopInit.min.js",
+		"outputAbbreviatedPath": "\/public\/js\/app\/init\/min\/DesktopInit.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/public\/js\/app\/init\/min\/DesktopInit.min-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -4336,6 +4358,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/js\/app\/init\/MobileInit.js",
 		"outputAbbreviatedPath": "\/public\/js\/app\/init\/min\/MobileInit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/js\/app\/init\/MobileInit.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/js\/app\/init\/MobileInit.min.js",
+		"outputAbbreviatedPath": "\/public\/js\/app\/init\/min\/MobileInit.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

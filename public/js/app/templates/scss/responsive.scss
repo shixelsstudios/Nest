@@ -294,6 +294,7 @@ div#slider-range-max {
         background: $title_grey;
         top: 90px;
         min-height: 700px;
+        overflow-y: visible; 
     }
     .container.line-container .center-justified {
         width: 90% !important;
@@ -342,7 +343,7 @@ div#slider-range-max {
 // For Nav responsiveness MDPIs and HiDPI
 @media only screen and (max-width: 1280px) {
   a.nestlogoholder {
-    width: 145px;
+    width: 140px;
 }
 
 img.nest-logo {
@@ -352,16 +353,16 @@ img.nest-logo {
     left: 5px;
 
     top: 25px;
-}
+    }
 }
 
 @media only screen and (max-width: 1440px) {
   a.nestlogoholder {
-    width: 200px;
+    width: 140px;
 }
 
 img.nest-logo {
-    width: 150px;
+    width: 120px;
     float: left;
     position: relative;
     left: 5px;
@@ -369,3 +370,9 @@ img.nest-logo {
     top: 25px;
 }
 }
+
+// @media screen and (device-width: 347px){
+// .mobile-menu {
+//     overflow-y: visible;
+// }
+// }

@@ -2302,6 +2302,41 @@ a.nestlogoholder {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px; }
 
+@media screen and (device-width: 347px) {
+  ul.row.enel-top-menu li {
+    display: inline-block;
+    font-size: 14px;
+    font-family: "Open Sans Light", Helvetica, sans-serif;
+    height: 30px; }
+    ul.row.enel-top-menu li.active {
+      background: #d2a541;
+      position: relative;
+      top: 20px; }
+      ul.row.enel-top-menu li.active a {
+        color: #fff !important;
+        position: relative;
+        top: -20px; }
+    ul.row.enel-top-menu li i {
+      color: #fff;
+      font-size: 2.5em;
+      line-height: 90px; }
+    ul.row.enel-top-menu li p {
+      height: 35px;
+      font-size: 18px;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      line-height: 45px;
+      color: #fff;
+      font-family: "Open Sans Regular", Helvetica, sans-serif; }
+    ul.row.enel-top-menu li a {
+      color: #d2a541;
+      text-transform: uppercase;
+      font-family: "Open Sans Regular", Helvetica, sans-serif; }
+      ul.row.enel-top-menu li a:active {
+        text-decoration: none; }
+      ul.row.enel-top-menu li a:hover {
+        border-bottom: 2px solid #d2a541; } }
 .top-banner.bg-op {
   background: url("http://demos.shixels.com/nest_av/img/N990EA Exterior 3 Copy.jpg") !important;
   background-size: cover !important;
@@ -3136,7 +3171,8 @@ ol.breadcrumb {
     position: absolute;
     background: #2b2a29;
     top: 90px;
-    min-height: 700px; }
+    min-height: 700px;
+    overflow-y: visible; }
 
   .container.line-container .center-justified {
     width: 90% !important; }
@@ -3180,7 +3216,7 @@ ol.breadcrumb {
     width: 80%; } }
 @media only screen and (max-width: 1280px) {
   a.nestlogoholder {
-    width: 145px; }
+    width: 140px; }
 
   img.nest-logo {
     width: 100px;
@@ -3190,10 +3226,10 @@ ol.breadcrumb {
     top: 25px; } }
 @media only screen and (max-width: 1440px) {
   a.nestlogoholder {
-    width: 200px; }
+    width: 140px; }
 
   img.nest-logo {
-    width: 150px;
+    width: 120px;
     float: left;
     position: relative;
     left: 5px;

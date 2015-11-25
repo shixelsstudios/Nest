@@ -76,6 +76,7 @@ div#navNotLoggedIn-view {
     top: 20%;
     cursor: pointer;
     display: none;
+
 }
 .mobile-menu-hide {
     position: absolute;
@@ -97,4 +98,54 @@ a.nestlogoholder {
     background: white;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
+}
+
+@media screen and (device-width: 347px){
+ ul.row.enel-top-menu li {
+        display: inline-block;
+        font-size: 14px;
+        font-family: $primary_font_light;
+        height: 30px;
+
+        &.active {
+    background: $gold;
+    position: relative;
+    top: 20px;
+
+    a {
+        color: $white !important;
+        position: relative;
+        top: -20px;
+    }
+}
+        i {
+            color: $white;
+            font-size: 2.5em;
+    line-height: 90px;
+
+        }
+        p {
+    height: 35px;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    line-height: 45px;
+    color: $white;
+    font-family: $primary_font_regular;
+}
+        a {
+                color: $gold;
+        text-transform: uppercase;
+            font-family: $primary_font_regular;
+
+            &:active {
+                text-decoration: none;
+            }
+
+            &:hover {
+                border-bottom: 2px solid $gold;
+            }
+        }
+    }
 }

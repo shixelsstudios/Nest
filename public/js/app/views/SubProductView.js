@@ -82,23 +82,23 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
 
                             ]
                         },
-                        {
-                            icon: 'calendar',
-                            cols: '3',
-                            align: 'center',
-                            title: 'Year of Manufacture',
-                            value: '2000'
-                        },
+                        // {
+                        //     icon: 'calendar',
+                        //     cols: '3',
+                        //     align: 'center',
+                        //     title: 'Year of Manufacture',
+                        //     value: '2000'
+                        // },
                         {
                             icon: 'clock-o',
-                            cols: '3',
+                            cols: '4',
                             align: 'center',
                             title: 'Non-stop Flight Time',
                             value: '8 Hours'
                         },
                         {
                             icon: 'send',
-                            cols: '3',
+                            cols: '4',
                             align: 'center',
                             title: 'Range',
                             value: '4,860 miles'
@@ -106,7 +106,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                         
                         {
                             icon: 'group',
-                            cols: '3',
+                            cols: '4',
                             align: 'center',
                             title: 'Seating Capacity',
                             value: '14 Passengers'
@@ -166,23 +166,23 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
 
                             ]
                         },
-                        {
-                            icon: 'calendar',
-                            cols: '3',
-                            align: 'center',
-                            title: 'Year of Manufacture',
-                            value: '2008'
-                        },
+                        // {
+                        //     icon: 'calendar',
+                        //     cols: '3',
+                        //     align: 'center',
+                        //     title: 'Year of Manufacture',
+                        //     value: '2008'
+                        // },
                         {
                             icon: 'clock-o',
-                            cols: '3',
+                            cols: '4',
                             align: 'center',
                             title: 'Non-stop Flight Time',
                             value: '6 Hours'
                         },
                         {
                             icon: 'send',
-                            cols: '3',
+                            cols: '4',
                             align: 'center',
                             title: 'Range',
                             value: '6300km (3,910 miles)'
@@ -190,7 +190,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                         
                         {
                             icon: 'group',
-                            cols: '3',
+                            cols: '4',
                             align: 'center',
                             title: 'Seating Capacity',
                             value: '11 Passengers'
@@ -250,23 +250,23 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                                 }
                             ]
                         },
-                        {
-                            icon: 'calendar',
-                            cols: '3',
-                            align: 'center',
-                            title: 'Year of Manufacture',
-                            value: '2008'
-                        },
+                        // {
+                        //     icon: 'calendar',
+                        //     cols: '3',
+                        //     align: 'center',
+                        //     title: 'Year of Manufacture',
+                        //     value: '2008'
+                        // },
                         {
                             icon: 'clock-o',
-                            cols: '3',
+                            cols: '4',
                             align: 'center',
                             title: 'Non-stop Flight Time',
                             value: '2 Hours'
                         },
                         {
                             icon: 'send',
-                            cols: '3',
+                            cols: '4',
                             align: 'center',
                             title: 'Range',
                             value: '832 km (517 miles)'
@@ -274,7 +274,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                         
                         {
                             icon: 'group',
-                            cols: '3',
+                            cols: '4',
                             align: 'center',
                             title: 'Seating Capacity',
                             value: '6 Passengers'
@@ -334,23 +334,23 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                                 }
                             ]
                         },
-                        {
-                            icon: 'calendar',
-                            cols: '3',
-                            align: 'center',
-                            title: 'Year of Manufacture',
-                            value: '2011'
-                        },
+                        // {
+                        //     icon: 'calendar',
+                        //     cols: '3',
+                        //     align: 'center',
+                        //     title: 'Year of Manufacture',
+                        //     value: '2011'
+                        // },
                         {
                             icon: 'clock-o',
-                            cols: '3',
+                            cols: '4',
                             align: 'center',
                             title: 'Non-stop Flight Time',
                             value: '3.5 Hours'
                         },
                         {
                             icon: 'send',
-                            cols: '3',
+                            cols: '4',
                             align: 'center',
                             title: 'Range',
                             value: '1,061km (573 miles)'
@@ -358,7 +358,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                         
                         {
                             icon: 'group',
-                            cols: '3',
+                            cols: '4',
                             align: 'center',
                             title: 'Seating Capacity',
                             value: '12 Passengers'
@@ -431,23 +431,23 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                                 }
                             ]
                         },
-                        {
-                            icon: 'calendar',
-                            cols: '3',
-                            align: 'center',
-                            title: 'Year of Manufacture',
-                            value: '2009'
-                        },
+                        // {
+                        //     icon: 'calendar',
+                        //     cols: '3',
+                        //     align: 'center',
+                        //     title: 'Year of Manufacture',
+                        //     value: '2009'
+                        // },
                         {
                             icon: 'clock-o',
-                            cols: '3',
+                            cols: '4',
                             align: 'center',
                             title: 'Non-stop Flight Time',
                             value: '8 Hours'
                         },
                         {
                             icon: 'send',
-                            cols: '3',
+                            cols: '4',
                             align: 'center',
                             title: 'Range',
                             value: '6,149km'
@@ -455,7 +455,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                         
                         {
                             icon: 'group',
-                            cols: '3',
+                            cols: '4',
                             align: 'center',
                             title: 'Seating Capacity',
                             value: '8 Passengers'
@@ -524,23 +524,23 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                                 }
                             ]
                         },
-                        {
-                            icon: 'calendar',
-                            cols: '3',
-                            align: 'center',
-                            title: 'Year of Manufacture',
-                            value: '2007'
-                        },
+                        // {
+                        //     icon: 'calendar',
+                        //     cols: '3',
+                        //     align: 'center',
+                        //     title: 'Year of Manufacture',
+                        //     value: '2007'
+                        // },
                         {
                             icon: 'clock-o',
-                            cols: '3',
+                            cols: '4',
                             align: 'center',
                             title: 'Non-stop Flight Time',
                             value: '10 Hours'
                         },
                         {
                             icon: 'send',
-                            cols: '3',
+                            cols: '4',
                             align: 'center',
                             title: 'Range',
                             value: '7,950 km'
@@ -548,7 +548,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
                         
                         {
                             icon: 'group',
-                            cols: '3',
+                            cols: '4',
                             align: 'center',
                             title: 'Seating Capacity',
                             value: '14 Passengers'

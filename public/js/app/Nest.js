@@ -30,7 +30,7 @@ define([
         Nest.mobile = isMobile();
         Nest.api = {}; 
         Nest.api.core = new NestCore();
-
+        Nest.moment = moment;
         Nest.addRegions({
             mainAppRegion:"#main-body-container",
             footerRegion: "#main-footer-container",

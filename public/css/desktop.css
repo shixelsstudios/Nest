@@ -2828,6 +2828,11 @@ ol.breadcrumb {
 .modal-body img {
   width: 100%; }
 
+.gallery.ops a.thumbnail {
+  height: 200px; }
+.gallery.ops a.thumbnail img {
+  height: 100% !important; }
+
 #Contact_content .contact-box {
   padding: 20px;
   background-color: #303030;

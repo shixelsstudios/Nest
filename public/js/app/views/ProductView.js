@@ -134,7 +134,12 @@ define(['jquery', 'hbs!templates/product', 'backbone','models/Model', 'marionett
             console.log(this.product);
             },
             onRender: function () {
-                nest.api.core.cleanView(this, '.serv-menu'); // gets view ready to be rendered      
+                var self = this;
+                nest.api.core.cleanView(this, '.serv-menu'); // gets view ready to be rendered 
+                setTimeout(function(){if (self.product.slug === 'airtcraft-hangarage') {
+                        $('.gallery').addClass('ops');
+                    }
+                }, 0); 
             },
             MoreInfo: function(e) {
                 e.preventDefault();

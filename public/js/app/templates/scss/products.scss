@@ -79,3 +79,12 @@ ol.breadcrumb {
 .modal-body img {
     width: 100%;
 }
+
+.gallery.ops {
+    a.thumbnail {
+    height: 200px;
+}
+a.thumbnail img {
+    height: 100% !important;
+}
+}

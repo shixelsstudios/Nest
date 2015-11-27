@@ -303,6 +303,9 @@ p {
   height: 200px;
   width: 100%; }
 
+.MarBot {
+  margin-bottom: 100px; }
+
 /*!
  *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)

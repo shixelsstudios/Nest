@@ -109,7 +109,7 @@ define(['jquery','kalendar', 'hbs!templates/quote', 'backbone','models/Model', '
             },
             sendQuote: function(e) {
                 e.preventDefault();
-                $('.quote-wait').show();
+               
                 var name = $('#Name').val();
                 var phone = $('#Phone').val();
                 var pass = $('#amount').val();
@@ -119,8 +119,28 @@ define(['jquery','kalendar', 'hbs!templates/quote', 'backbone','models/Model', '
                 var inttitle = "You've received a quote!";
                 var exttitle = "Your quote has been received!";
                 var extmessage = 'Thanks for requesting a quote, it has been received. We will be in touch shortly.<p> Please view details below: </p>';
-                var intmessage = 'You have a pending quote. kindly address as soon as possible.<p> Please view details below: </p>';
+                var intmessage = 'You have a pending charter request. kindly address as soon as possible.<p> Please view details below: </p>';
                 var comment = $('#Routing').val();
+                var Aircraft = $('#selected-aircraft').val();
+
+              
+
+                  if(name === ""){
+                  // alert('This is it');
+                  $('#Fullname-error').after('<small style=color:red;position:relative;left:-200px;  class="name-error">*Please enter your Fullname</small>');            
+                  } 
+
+                  if(phone === ""){
+                  // alert('This is it');
+                  $('#PhoneNum-error').after('<small style=color:red;position:relative;left:-170px;  class="phone-error">*Please enter your Phone Number</small>');            
+                  }
+                
+                  if(Aircraft === ""){
+                  // alert('That was it');
+                  $('#Aircraft-error').after('<small style=color:red;position:relative;left:-200px;  class="Air-error">*Please Select an Aircraft</small>');            
+                  }
+                
+                
 
                 if (!comment) {
                     comment = 'N/A';
@@ -134,8 +154,9 @@ define(['jquery','kalendar', 'hbs!templates/quote', 'backbone','models/Model', '
                     nest.fromdate = 'N/A';
                 }
 
-                console.log(name , phone , pass , origin , dest , nest.todate , nest.fromdate);
-                if (name && phone && pass && origin && dest && nest.todate) {
+                console.log(name , phone , pass , origin , dest , nest.todate , nest.fromdate , Aircraft);
+                if (name && phone && pass && origin && dest && nest.todate && Aircraft) {
+                   $('.quote-wait').show();
                     console.log('send quote!');
                     $.ajax({
                        type: "POST",
@@ -193,6 +214,10 @@ define(['jquery','kalendar', 'hbs!templates/quote', 'backbone','models/Model', '
                                          "name": "pass",
                                          "content": pass
                                        },
+                                        {
+                                         "name": "Aircraft",
+                                         "content": Aircraft
+                                       },
 
                                        {
                                          "name": "todate",
@@ -249,6 +274,10 @@ define(['jquery','kalendar', 'hbs!templates/quote', 'backbone','models/Model', '
                                        {
                                          "name": "pass",
                                          "content": pass
+                                       },
+                                       {
+                                         "name": "Aircraft",
+                                         "content": Aircraft
                                        },
                                        {
                                            "name": 'phone',

@@ -300,8 +300,8 @@ p {
   border-radius: 4px !important;
   border: 1px solid #eee !important;
   position: relative;
-  left: -60px;
-  height: 200px; }
+  height: 200px;
+  width: 100%; }
 
 /*!
  *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome

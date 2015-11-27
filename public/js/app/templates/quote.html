@@ -16,23 +16,33 @@
 			<h1>Let's get started</h1>
 			<span class="line"><img src="http://demos.shixels.com/nest_av/img/line.jpg"></span>
 			<div class="row choose-pic-holder">
-				<div class="col-md-6">
+				<!-- <div class="col-md-6">
 					<img src="http://demos.shixels.com/nest_av/img/N990EA - Exterior 4.jpg">
-				</div>
+				</div> -->
 			<div class="col-md-6">
 			<p>
- <label for="Name">Name:</label>
-  <input type="text" id="Name"  >
+ <label for="Name">Name:</label> <small id="Fullname-error" class="name-error"></small>
+  <input type="text" id="Name" placeholder="Enter Full name" >
    <label for="Email">Email:</label>
-  <input type="text" id="Email"  >
-   <label for="Phone">Phone:</label>
-  <input type="text" id="Phone"  >
+  <input type="text" id="Email" placeholder="Enter email address" >
+   <label for="Phone">Phone:</label> <small id="PhoneNum-error" class="phone-error"></small>
+  <input type="text" id="Phone" placeholder="Enter Phone number" >
+  </div><!-- Col-md-6 Ends here -->
+
+  <div class="col-md-6">
   <label for="Routing">Multiple Destinations? Leave comment here:</label>
-  <textarea class="route-field" type="text" cols="50" id="Routing"></textarea>
+  <textarea class="route-field" type="text" id="Routing"></textarea>
   <label class="amountlabel" for="amount">Number of persons:</label>
 <div id="slider-range-max"></div>
 <input type="text" id="amount" readonly >
-			</div>
+<label for="Aircraft-type">Select Charter Aircraft:</label> <small id="Aircraft-error" class="Air-error"></small>
+  <select class="route-field " id="selected-aircraft">
+  <option  selected value="">Select Aircaft</option>
+  	<option value="Jet">Jet</option>
+  	<option value="Helicopter">Helicopter</option>
+  </select>
+
+			
 			</div>
 			
 		</div>

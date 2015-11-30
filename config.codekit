@@ -845,17 +845,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/public\/img\/g200\/g200-10.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 436452,
-		"inputAbbreviatedPath": "\/public\/img\/g200\/g200-10.jpg",
-		"outputAbbreviatedPath": "\/public\/img\/g200\/g200-10.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/public\/img\/g200\/g200-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -918,28 +907,6 @@
 		"initialSize": 188430,
 		"inputAbbreviatedPath": "\/public\/img\/g200\/g200-7.jpg",
 		"outputAbbreviatedPath": "\/public\/img\/g200\/g200-7.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/public\/img\/g200\/g200-8.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 168954,
-		"inputAbbreviatedPath": "\/public\/img\/g200\/g200-8.jpg",
-		"outputAbbreviatedPath": "\/public\/img\/g200\/g200-8.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/public\/img\/g200\/g200-9.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 150593,
-		"inputAbbreviatedPath": "\/public\/img\/g200\/g200-9.jpg",
-		"outputAbbreviatedPath": "\/public\/img\/g200\/g200-9.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4319,6 +4286,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/public\/js\/app\/init\/DesktopInit.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/js\/app\/init\/DesktopInit.min.js",
+		"outputAbbreviatedPath": "\/public\/js\/app\/init\/min\/DesktopInit.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/public\/js\/app\/init\/min\/DesktopInit.min-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -4347,6 +4325,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/js\/app\/init\/MobileInit.js",
 		"outputAbbreviatedPath": "\/public\/js\/app\/init\/min\/MobileInit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/js\/app\/init\/MobileInit.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/js\/app\/init\/MobileInit.min.js",
+		"outputAbbreviatedPath": "\/public\/js\/app\/init\/min\/MobileInit.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

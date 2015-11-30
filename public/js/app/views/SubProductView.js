@@ -199,7 +199,7 @@ define(['jquery', 'hbs!templates/subproduct', 'backbone','models/Model', 'marion
 
                     this.subproduct.gallery.title = 'Inside the G200';
 
-                    this.subproduct.gallery.count = 10;
+                    this.subproduct.gallery.count = 7;
                     this.subproduct.gallery.path = 'http://demos.shixels.com/nest_av/img/g200/g200-';
                     this.subproduct.gallery.images = [];
 

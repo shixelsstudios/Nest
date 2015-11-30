@@ -845,6 +845,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/g200\/g200-10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 427817,
+		"inputAbbreviatedPath": "\/public\/img\/g200\/g200-10.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/g200\/g200-10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/g200\/g200-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -907,6 +918,28 @@
 		"initialSize": 188430,
 		"inputAbbreviatedPath": "\/public\/img\/g200\/g200-7.jpg",
 		"outputAbbreviatedPath": "\/public\/img\/g200\/g200-7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/g200\/g200-8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 338718,
+		"inputAbbreviatedPath": "\/public\/img\/g200\/g200-8.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/g200\/g200-8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/g200\/g200-9.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 268750,
+		"inputAbbreviatedPath": "\/public\/img\/g200\/g200-9.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/g200\/g200-9.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

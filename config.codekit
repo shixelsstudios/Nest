@@ -647,6 +647,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/Bg-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19189,
+		"inputAbbreviatedPath": "\/public\/img\/Bg-1.png",
+		"outputAbbreviatedPath": "\/public\/img\/Bg-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/bg-transport.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4314,6 +4325,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/js\/app\/init\/DesktopInit.js",
 		"outputAbbreviatedPath": "\/public\/js\/app\/init\/min\/DesktopInit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/js\/app\/init\/DesktopInit.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/js\/app\/init\/DesktopInit.min.js",
+		"outputAbbreviatedPath": "\/public\/js\/app\/init\/min\/DesktopInit.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

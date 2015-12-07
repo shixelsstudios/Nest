@@ -342,6 +342,10 @@ div#slider-range-max {
 
 // For Nav responsiveness MDPIs and HiDPI
 @media only screen and (max-width: 1280px) {
+   #page{
+  padding: 0px 0px 0px 60px;
+}
+  
   a.nestlogoholder {
     width: 140px;
 }
@@ -357,6 +361,11 @@ img.nest-logo {
 }
 
 @media only screen and (max-width: 1440px) {
+
+    #page{
+  padding: 0px 0px 0px 60px;
+}
+
   a.nestlogoholder {
     width: 140px;
 }
@@ -369,6 +378,12 @@ img.nest-logo {
 
     top: 25px;
 }
+}
+
+@media screen and (max-width:769px){
+    #page{
+        padding: 0px;
+    }
 }
 
 // @media screen and (device-width: 347px){

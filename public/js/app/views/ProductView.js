@@ -117,7 +117,7 @@ define(['jquery', 'hbs!templates/product', 'backbone','models/Model', 'marionett
                     this.product.gallery.title = 'Inside our Hangers';
 
                     this.product.gallery.count = 6;
-                    this.product.gallery.path = '../img/hanger/hanger-';
+                    this.product.gallery.path = 'http://demos.shixels.com/nest_av/img/hanger/hanger-';
                     this.product.gallery.images = [];
 
                     for (var o = 1; o <= this.product.gallery.count; o++) {

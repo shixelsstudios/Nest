@@ -59,6 +59,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .blue {
   color: #3c2c6f; }
 
+.black-overlay {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px; }
+
+.top-banner {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px; }
+
+.footer-view {
+  border-radius: 50px; }
+
 #page {
   padding: 0px 0px 0px 350px; }
 
